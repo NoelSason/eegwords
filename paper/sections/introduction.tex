@@ -1,0 +1,54 @@
+\section{Introduction}
+\label{sec:intro}
+
+A system that could recover the meaning of silently imagined speech from scalp EEG would be useful
+to people who cannot speak, and it would be cheap and non-invasive. Reported accuracies for this
+task are low, so small differences carry the argument: a result of 14\% on a 39-way problem is
+interesting only if one is confident that the 11 points above chance come from the imagined
+sentence and not from something else the recording happens to encode.
+
+EEG makes that confidence hard to earn. Recordings are long, and EEG contains temporal
+correlations that make trials recorded close together resemble each other regardless of the
+stimulus; a classifier can exploit them by learning \emph{when} a trial was recorded
+\citep{li2021perils}. Whether that matters depends on
+two design choices that are easy to make and easy to overlook: the order in which stimuli are
+presented, and how test trials are drawn from the recording.
+
+We examine one benchmark where both choices interact with a third, the rule used to report
+accuracy. Chisco \citep{zhang2024chisco} is a large public imagined-speech corpus: over 6{,}000
+sentences per participant, recorded across five days and labelled with 39 semantic categories.
+Its authors report 13.88\% category accuracy for participant S1 against a 5.52\% shuffled-label
+baseline, and conclude that the EEG contains semantic information. The released code assigns every
+fifth trial in recording order to the evaluation set and reports the best evaluation accuracy seen
+during training.
+
+Our central observation needs no EEG. In the released recording order, consecutive trials share a
+category 19.7\% of the time, against 2.95\% if the same categories were shuffled. On the released
+evaluation set, a classifier that copies the label of the preceding training trial scores
+\textbf{18.8\%}, above the published EEG result. The EEG, in turn, carries the time stamp this
+classifier needs: per-trial channel means and variances identify the recording run of a held-out
+trial with 98.8\% accuracy. Running the released script with its documented command on our
+hardware prints 9.69\%, not 13.88\%. Under the same rule, a model trained on permuted labels still
+reports 6.4\%, and real labels add 2.4 points to that, not the 8.4 the paper reports. When whole
+runs are held out so that evaluation trials have no neighbours in the training set, the margin
+between real and permuted labels falls to 0.64 points, within the variation between seeds.
+
+Our contributions are:
+\begin{itemize}
+\item An audit of the released 39-way benchmark on its exact evaluation split: trial position alone
+predicts the category better than the published EEG model, and content-free EEG summary statistics
+carry enough recording-time information to exploit that structure (Section~\ref{sec:audit}).
+\item A re-run of the published configuration, including the released script itself, that reads
+three selection rules from the same training runs and compares each with a permuted-label null
+(Section~\ref{sec:results}). The published best-checkpoint rule adds 1.4--1.6 points over a
+validation-selected checkpoint and reports 5.2--6.4\% for models trained without label information.
+\item A split comparison showing the real-vs-permuted margin shrinking from 2.11 points on the
+released split to 0.64 under run holdout (Section~\ref{sec:splits}).
+\item A short protocol for temporally ordered decoding benchmarks: report a position-only baseline
+on the exact evaluation split, hold out whole runs or sessions, select checkpoints on data that is
+never scored, and compare against a permuted-label null run through the same pipeline.
+\end{itemize}
+
+We do not claim that the Chisco EEG contains no semantic information, or that imagined-speech
+decoding from EEG is infeasible. Our claims are about what this benchmark's protocol can and
+cannot show, for one participant.

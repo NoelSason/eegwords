@@ -1,0 +1,16 @@
+\begin{abstract}
+Imagined-speech EEG classifiers report small margins above chance, so the evaluation protocol decides
+what those margins mean. We audit the 39-way semantic-category benchmark released with Chisco, a
+large public imagined-speech corpus, for participant S1, using the released code. Its stimulus
+order is clustered by category, and its split places each evaluation trial between two training
+trials, almost always from the same recording run. A classifier that never sees EEG and copies the label of the preceding
+training trial scores 18.8\% on the released evaluation set, above the published 13.88\%, and
+per-trial EEG summary statistics identify a held-out trial's recording run with 98.8\% accuracy.
+Running the released script with its documented configuration on our hardware prints 9.69\%. Its
+reporting rule, the best of several hundred evaluations on the evaluation set, gives 6.4\% to a model
+trained on permuted labels. When whole runs are held out, real labels beat permuted labels by 0.64
+points, within the variation between seeds, and a reading-task control shows that the pipeline has
+limited sensitivity once recording-time cues are gone. The published number therefore does not, on its
+own, establish semantic decoding. We recommend reporting position-only baselines on the exact split,
+holding out whole runs, and selecting checkpoints on data that is never scored.
+\end{abstract}

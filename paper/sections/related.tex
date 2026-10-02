@@ -1,0 +1,30 @@
+\section{Related work}
+\label{sec:related}
+
+\paragraph{Imagined-speech EEG.}
+\citet{panachakel2021} review a decade of systems that decode covert or imagined speech from EEG
+and note that differences in acquisition and algorithms make implementations hard to compare.
+Chisco \citep{zhang2024chisco} is, by its authors' account, the largest per-participant corpus for
+decoding neural language: more than 6{,}000 everyday Chinese sentences per participant, recorded over five days with a 128-channel cap,
+labelled with 39 semantic categories. Its Technical Validation reports 39-way category accuracies of
+13.59--14.02\% for three participants, against shuffled-label baselines of 5.52--5.93\%, using an
+EEGNet front end \citep{lawhern2018} followed by a Transformer encoder \citep{vaswani2017}.
+
+\paragraph{Temporal confounds in EEG classification.}
+\citet{li2021perils} showed that published results on an EEG image-classification dataset depend on
+a block design, in which all stimuli of a class are presented together, and fail with a rapid-event
+design in which classes are randomly intermixed: classifiers learned block-level temporal
+correlations present in all EEG data, and every test trial shared a block with many training
+trials. \citet{roy2019} reviewed 154 deep-learning EEG studies and recorded, for each, how
+reproducible its experiments were. A concurrent public code release
+\citep{concurrentaudit} audits sentence-level decoding on Chisco and a second corpus for run-identity
+and stimulus-order confounds. We did not find an accompanying paper; we cite it as software and do
+not claim its findings. Our audit targets the 39-way category benchmark as released, and the
+reporting rule of the released code.
+
+\paragraph{Leakage and selection bias.}
+\citet{kapoor2023leakage} survey leakage in 294 papers across 17 fields that adopted ML and
+propose a taxonomy of eight leakage types. Selecting a model on the same data used to estimate its performance biases that estimate upward
+\citep{cawley2010}, and with small test sets the variance of a single accuracy estimate is itself
+large \citep{varoquaux2018}. The released Chisco code combines both: test trials are neighbours of
+training trials, and the reported figure is the best of 313 evaluations on that same set (Section~\ref{sec:setting}).

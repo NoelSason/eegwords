@@ -1,0 +1,11 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+On the released Chisco benchmark, the category of an evaluation trial can be predicted from its
+position in the recording better than the published EEG model predicts it from the signal. Re-running
+the released configuration gives 8.8--9.7\% instead of 13.88\%; a model with no label information
+reaches 6.4\% under the published reporting rule; and once whole runs are held out, the remaining
+margin over a permuted-label null is too small for this pipeline to resolve. None of this rules out
+semantic information in the EEG. It shows that this benchmark, as released, cannot separate it from recording-time structure. The fix
+is procedural and cheap: a position-only baseline, whole-run holdout, selection on unscored data, and
+a null run through the same pipeline.

@@ -1,0 +1,71 @@
+\section{Experimental setting}
+\label{sec:setting}
+
+\paragraph{Data.}
+We use participant S1 (\texttt{sub-01}) of Chisco \citep{zhang2024chisco}, distributed as OpenNeuro
+\texttt{ds005170} \citep{ds005170}. In each trial the participant reads and memorises a sentence (the first 5\,s), then imagines
+saying it (the next 3.3\,s). The paper reports 6{,}681 presented sentences per
+participant over five recording days. The released preprocessed imagined-speech epochs for S1
+contain 6{,}243 of them: within each of the 45 runs, the released trials are an in-order subsequence
+of that run's stimulus list, so preprocessing removed 438 trials and reordered none. Each epoch has
+125 channels at 500\,Hz (1{,}651 samples); as in the released code we keep the 122 EEG channels and
+scale volts to microvolts, with no further normalisation. Every sentence maps to one of 39 semantic
+categories through the released \texttt{textmaps.json}. Uniform chance is $1/39 = 2.56\%$; always
+predicting the most frequent training category scores 4.72\% on the evaluation set described below.
+
+\paragraph{The published protocol, as released.}
+The paper describes the model (an EEGNet front end, one Transformer encoder layer, mean pooling,
+a linear classifier) but not the split, the number of training runs, or how the reported accuracy is
+chosen. We take these from the released code \citep{chiscocode} and the command its README gives
+for ``reproducing the paper results'' (Appendix~\ref{app:upstream}). Trials from all 45 runs are
+concatenated in recording order and every trial whose position satisfies $i \bmod 5 = 1$ is placed in
+the evaluation set (1{,}249 trials); the other 4{,}994 are used for training. There is no third set.
+Training runs for 100 epochs with AdamW (learning rate $5\times10^{-4}$, weight decay 0.01, batch 16,
+linear warm-up over the first 10\% of steps, then linear decay). Every 100 optimiser steps the model
+is evaluated on the evaluation set, and the script prints the maximum accuracy seen over all
+evaluations: 313 of them in this configuration. We call this the \emph{max-over-checkpoints} rule.
+Table~3 of the paper reports 13.88\% for S1 and a 5.52\% baseline obtained by shuffling the
+correspondence between EEG and labels in training.
+
+\paragraph{Our re-implementation.}
+We copy the released model code and change only how its two temporal convolutions are computed
+(an equivalent unfold-and-multiply form with the same parameters and initialisation, which is
+about nine times faster on our hardware; outputs agree with the original to float32 rounding).
+Data loading, label mapping and the split follow the released code and are checked by unit tests.
+To read a second selection rule from the same runs, we hold out a random 10\% of the training
+trials (499) as a validation set, so our models train on 4{,}495 trials and are evaluated
+281 times. All runs use Apple-silicon GPUs (PyTorch MPS, float32) and three seeds.
+
+\paragraph{Three readings of one run.}
+For every run we store validation and evaluation-set accuracy at every evaluation, and the
+evaluation-set predictions at three checkpoints:
+\textbf{max-over-checkpoints} (the published rule);
+\textbf{validation-selected}, the checkpoint with the highest validation accuracy, scored once on
+the evaluation set, which is never used for selection; and
+\textbf{last}, the final checkpoint.
+Because all three come from the same training run, differences between them are due to the
+selection rule alone.
+
+\paragraph{Splits.}
+Besides the released split (\emph{interleaved}) we use three others, each leaving about 80\% of
+trials for training:
+\emph{random-trial} (a random 20\% of trials);
+\emph{run holdout} (the 45 runs in five fixed folds of nine runs; we report held-out folds 0--2); and
+\emph{session holdout} (one recording day held out at a time; we report days 1--3).
+For the grouped splits the validation set is made of whole training runs, so model selection is also
+free of within-run neighbours. For cost reasons the split comparison uses the same model at
+250\,Hz (pairwise averaging) and 30 epochs; it is compared only within itself. As a positive control
+we also train on the reading epochs (the first 5\,s of each trial; 6{,}387 released epochs for S1,
+2{,}501 samples at 500\,Hz), whose labels and trial order follow the same stimulus lists.
+
+\paragraph{Permutation control.}
+For each configuration we also train with the training labels randomly permuted; validation and
+evaluation labels are untouched. This mirrors the shuffled baseline in the released code and gives
+the accuracy each selection rule produces when the EEG carries no information about the label.
+
+\paragraph{Uncertainty.}
+The unit of replication for EEG models is a training seed ($n=3$). We report per-seed values, means
+and standard deviations, and do not run significance tests on three seeds. For accuracies of a single
+classifier on the evaluation set we report 95\% intervals from a bootstrap that resamples test
+\emph{runs} (2{,}000 draws), because trials within a run share stimulus-list structure and are not
+independent.

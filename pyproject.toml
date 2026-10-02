@@ -1,0 +1,21 @@
+[project]
+name = "eegwords"
+version = "0.2.0"
+description = "Evaluation audit of Chisco imagined-speech EEG classification"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "torch>=2.3",
+  "numpy",
+  "scikit-learn",
+  "pandas",
+  "openpyxl",
+  "matplotlib",
+  "scipy",
+]
+
+[tool.setuptools]
+packages = ["eegwords"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,29 @@
+\section{Limitations}
+\label{sec:limitations}
+
+\textbf{One participant.} All EEG results are for S1. The paper reports S2 and S3 at 13.59\% and
+14.02\%; we did not audit them, and the dataset has two further participants. The no-EEG analysis
+is cheap to repeat for them and is the first extension we would run.
+
+\textbf{One model family and preprocessing.} We use the released model and the released
+preprocessed epochs. A different architecture, frequency band or artifact treatment could find
+semantic information that this pipeline does not.
+
+\textbf{Not the authors' environment.} We ran the released configuration on Apple-silicon GPUs with
+our seeds, not on the authors' hardware. Floating-point results can differ between GPU platforms; we
+report the spread over seeds and the released script's own output, but cannot rule out that their
+exact run reached 13.88\%.
+
+\textbf{Two schedules.} The split comparison uses 250\,Hz and 30 epochs to fit on one machine. It is
+compared only within itself, not with the 500\,Hz reproduction.
+
+\textbf{Session holdout mixes two effects.} Category composition differs between recording days
+(Appendix~\ref{app:data}), so accuracy under session holdout reflects both the absence of
+within-session neighbours and a shift in label distribution. Run holdout is the cleaner control.
+
+\textbf{Three seeds.} With $n=3$ per cell we report means, standard deviations and per-seed values,
+not significance tests. Differences smaller than the seed spread should not be read as effects.
+
+\textbf{Overlap with concurrent work.} A public code release \citep{concurrentaudit} audits
+stimulus-order and run-identity confounds in Chisco's sentence-level decoding. We cite it as software;
+we have not seen a paper and do not know the full extent of the overlap.

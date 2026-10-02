@@ -1,0 +1,20 @@
+data/*
+!data/cache/
+data/cache/*
+!data/cache/sub-01_imagine_meta.json
+!data/json/
+!data/text/
+build/
+.venv/
+.pytest_cache/
+__pycache__/
+*.egg-info/
+results/.claims/
+paper/*.log
+paper/*.blg
+paper/*.aux
+paper/main.pdf
+# run logs are local noise; keep only the released-script evidence
+logs/*
+!logs/upstream_seed42_e100.txt
+!logs/upstream_patch.diff

@@ -1,0 +1,34 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\paragraph{What the results show.}
+Three findings hold regardless of how the residual run-holdout margin is eventually resolved.
+First, the released evaluation set can be predicted from trial position alone at 18.8\%, so an
+accuracy on that split is not, by itself, evidence of decoding. Second, the released
+code and configuration did not produce 13.88\% on our hardware: the released script printed 9.69\%
+and our re-implementation 8.75\% $\pm$ 0.67 under the same rule. Third, the published selection rule
+reports 5.2--6.4\% for models trained on permuted labels, so the paper's own shuffled baseline
+(5.52\%) is the right reference for its number, and the margin over it on our runs is 2.4 points,
+not 8.4. Under run holdout, where the order structure cannot help, real labels lead permuted labels
+by 0.64 points, inside the seed-to-seed spread, and the reading epochs, which we expected to be
+easier, reach only 1.10 points over their own null under the same split.
+
+\paragraph{What they do not show.}
+They do not show that the Chisco EEG contains no semantic information, that the published model
+reached its accuracy through the order structure, or that the same holds for the other participants.
+A 0.64-point margin with three seeds and three folds is compatible with a small real effect and with
+none; resolving it needs more seeds, more folds and other participants, not a different reading of
+these numbers. They also do not show why the published value is higher than ours.
+
+\paragraph{Recommendations for temporally ordered decoding benchmarks.}
+\begin{enumerate}
+\item Report a classifier that uses only trial position and training labels, on the exact
+evaluation split. It costs seconds and bounds how much the split leaks.
+\item Hold out whole runs or sessions when stimulus order is not fully randomised, and say which.
+Check that held-out units do not differ in label distribution, or report that they do.
+\item Select checkpoints and hyperparameters on data that is never used for the reported number,
+and report how many evaluations the selection saw.
+\item Run the shuffled-label baseline through the identical pipeline, including the selection rule,
+and report it next to the main number.
+\item Release the trial order and the split indices with the data.
+\end{enumerate}

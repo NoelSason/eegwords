@@ -1,0 +1,5290 @@
+{
+ "n_numbers": 509,
+ "n_unmatched": 22,
+ "unmatched": [
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 18,
+   "number": "6000",
+   "matches": [],
+   "context": "accuracy. Chisco \\citep{zhang2024chisco} is a large public imagined-speech corpus: over 6{,}000"
+  },
+  {
+   "file": "paper/sections/limitations.tex",
+   "line": 17,
+   "number": "250",
+   "matches": [],
+   "context": "\\textbf{Two schedules.} The split comparison uses 250\\,Hz and 30 epochs to fit on one machine. It is"
+  },
+  {
+   "file": "paper/sections/related.tex",
+   "line": 8,
+   "number": "6000",
+   "matches": [],
+   "context": "decoding neural language: more than 6{,}000 everyday Chinese sentences per participant, recorded over five days with a 128-channel cap,"
+  },
+  {
+   "file": "paper/sections/related.tex",
+   "line": 8,
+   "number": "128",
+   "matches": [],
+   "context": "decoding neural language: more than 6{,}000 everyday Chinese sentences per participant, recorded over five days with a 128-channel cap,"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 62,
+   "number": "250",
+   "matches": [],
+   "context": "(Table~\\ref{tab:splits}, Figure~\\ref{fig:splits}; 250\\,Hz, 30 epochs, three seeds, three folds per"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 87,
+   "number": "250",
+   "matches": [],
+   "context": "\\caption{\\textbf{Split comparison} (accuracy, \\%; 250\\,Hz, 30 epochs). EEG columns: mean $\\pm$ SD"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 118,
+   "number": "250",
+   "matches": [],
+   "context": "\\caption{\\textbf{Reading-task control} (validation-selected accuracy, \\%; 250\\,Hz, 30 epochs; 6{,}387"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 23,
+   "number": "0.01",
+   "matches": [],
+   "context": "Training runs for 100 epochs with AdamW (learning rate $5\\times10^{-4}$, weight decay 0.01, batch 16,"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 57,
+   "number": "250",
+   "matches": [],
+   "context": "250\\,Hz (pairwise averaging) and 30 epochs; it is compared only within itself. As a positive control"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 13,
+   "number": "0.01",
+   "matches": [],
+   "context": "Unlisted arguments take the script's defaults: batch 16, weight decay 0.01, warm-up ratio 0.1,"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 17,
+   "number": "74",
+   "matches": [],
+   "context": "Line 74 assigns trial \\texttt{index} to the evaluation set when \\texttt{index \\% 5 == 1};"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 18,
+   "number": "173",
+   "matches": [],
+   "context": "lines 173--174 build only a training and an evaluation set; line 219 initialises \\texttt{max\\_accuracy} and line 263 updates it as"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 18,
+   "number": "-174",
+   "matches": [],
+   "context": "lines 173--174 build only a training and an evaluation set; line 219 initialises \\texttt{max\\_accuracy} and line 263 updates it as"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 18,
+   "number": "219",
+   "matches": [],
+   "context": "lines 173--174 build only a training and an evaluation set; line 219 initialises \\texttt{max\\_accuracy} and line 263 updates it as"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 18,
+   "number": "263",
+   "matches": [],
+   "context": "lines 173--174 build only a training and an evaluation set; line 219 initialises \\texttt{max\\_accuracy} and line 263 updates it as"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 19,
+   "number": "271",
+   "matches": [],
+   "context": "\\texttt{max(max\\_accuracy, valid\\_accu)} at every evaluation; line 271 prints it as the result. The \\texttt{--rand\\_guess 1} option shuffles"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 52,
+   "number": "250",
+   "matches": [],
+   "context": "Sampling rate & 500\\,Hz (1{,}651 samples) & 250\\,Hz (825 samples, pairwise mean) \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 52,
+   "number": "825",
+   "matches": [],
+   "context": "Sampling rate & 500\\,Hz (1{,}651 samples) & 250\\,Hz (825 samples, pairwise mean) \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 55,
+   "number": "0.01",
+   "matches": [],
+   "context": "Optimiser & AdamW, lr $5\\times10^{-4}$, wd 0.01 & same \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 70,
+   "number": "2.14",
+   "matches": [],
+   "context": "All EEG models were trained on one Apple-silicon laptop (PyTorch 2.14.1, MPS backend, float32),"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 79,
+   "number": "28",
+   "matches": [],
+   "context": "\\item S1 released imagined-speech epochs: 6{,}243 trials in 45 runs (28--185 per run); every"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 79,
+   "number": "-185",
+   "matches": [],
+   "context": "\\item S1 released imagined-speech epochs: 6{,}243 trials in 45 runs (28--185 per run); every"
+  }
+ ],
+ "all": [
+  {
+   "file": "paper/sections/abstract.tex",
+   "line": 3,
+   "number": "39",
+   "matches": [
+    "n_classes"
+   ],
+   "context": "what those margins mean. We audit the 39-way semantic-category benchmark released with Chisco, a"
+  },
+  {
+   "file": "paper/sections/abstract.tex",
+   "line": 7,
+   "number": "18.8",
+   "matches": [
+    "lb.interleaved.interleaved.index_1nn_prev",
+    "lb.interleaved.mean.index_1nn_prev",
+    "lb.interleaved.min.index_1nn_prev",
+    "lb.interleaved.max.index_1nn_prev"
+   ],
+   "context": "training trial scores 18.8\\% on the released evaluation set, above the published 13.88\\%, and"
+  },
+  {
+   "file": "paper/sections/abstract.tex",
+   "line": 7,
+   "number": "13.88",
+   "matches": [
+    "published.S1"
+   ],
+   "context": "training trial scores 18.8\\% on the released evaluation set, above the published 13.88\\%, and"
+  },
+  {
+   "file": "paper/sections/abstract.tex",
+   "line": 8,
+   "number": "98.8",
+   "matches": [
+    "drift.run"
+   ],
+   "context": "per-trial EEG summary statistics identify a held-out trial's recording run with 98.8\\% accuracy."
+  },
+  {
+   "file": "paper/sections/abstract.tex",
+   "line": 9,
+   "number": "9.69",
+   "matches": [
+    "upstream.printed_result"
+   ],
+   "context": "Running the released script with its documented configuration on our hardware prints 9.69\\%. Its"
+  },
+  {
+   "file": "paper/sections/abstract.tex",
+   "line": 10,
+   "number": "6.4",
+   "matches": [
+    "repro_null.upstream_max.mean",
+    "split.interleaved.real.val_selected.seed0",
+    "split.run_holdout.real.upstream_max.seed1"
+   ],
+   "context": "reporting rule, the best of several hundred evaluations on the evaluation set, gives 6.4\\% to a model"
+  },
+  {
+   "file": "paper/sections/abstract.tex",
+   "line": 11,
+   "number": "0.64",
+   "matches": [
+    "split.run_holdout.real.final.sd",
+    "split.run_holdout.diff.val_selected",
+    "paired.imagine.run_holdout.mean"
+   ],
+   "context": "trained on permuted labels. When whole runs are held out, real labels beat permuted labels by 0.64"
+  },
+  {
+   "file": "paper/sections/ai_disclosure.tex",
+   "line": 3,
+   "number": "5.5",
+   "matches": [
+    "lb.run_holdout.run_fold4.index_knn_5",
+    "lb.run_holdout.mean.index_1nn_next",
+    "lb.run_holdout.mean.index_knn_11",
+    "lb.run_holdout.mean3.index_knn_11"
+   ],
+   "context": "(Anthropic; Sonnet 5.5 and Opus 5.5 models), used as a coding assistant, wrote most of the analysis"
+  },
+  {
+   "file": "paper/sections/ai_disclosure.tex",
+   "line": 3,
+   "number": "5.5",
+   "matches": [
+    "lb.run_holdout.run_fold4.index_knn_5",
+    "lb.run_holdout.mean.index_1nn_next",
+    "lb.run_holdout.mean.index_knn_11",
+    "lb.run_holdout.mean3.index_knn_11"
+   ],
+   "context": "(Anthropic; Sonnet 5.5 and Opus 5.5 models), used as a coding assistant, wrote most of the analysis"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 5,
+   "number": "19.7",
+   "matches": [
+    "lag1"
+   ],
+   "context": "In the released trial order, 19.7\\% of consecutive trials share a category. If the same category"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 6,
+   "number": "2.95",
+   "matches": [
+    "prior_null"
+   ],
+   "context": "frequencies were in random order, 2.95\\% would. The excess decays with distance but persists: 14.2\\%"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 6,
+   "number": "14.2",
+   "matches": [
+    "lag2"
+   ],
+   "context": "frequencies were in random order, 2.95\\% would. The excess decays with distance but persists: 14.2\\%"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 7,
+   "number": "2",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_1nn_prev",
+    "lb.run_holdout.run_fold1.ci0",
+    "lb.run_holdout.run_fold2.ci0",
+    "lb.run_holdout.run_fold3.ci0"
+   ],
+   "context": "at lag 2, 8.9\\% at lag 5, 6.7\\% at lag 10 and 5.2\\% at lag 50 (Figure~\\ref{fig:order}). Restricting"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 7,
+   "number": "8.9",
+   "matches": [
+    "lb.run_holdout.run_fold2.ci1",
+    "lb.session_holdout.ses5.ci1",
+    "lag5"
+   ],
+   "context": "at lag 2, 8.9\\% at lag 5, 6.7\\% at lag 10 and 5.2\\% at lag 50 (Figure~\\ref{fig:order}). Restricting"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 7,
+   "number": "5",
+   "matches": [
+    "lb.interleaved.interleaved.majority",
+    "lb.interleaved.mean.majority",
+    "lb.interleaved.min.majority",
+    "lb.interleaved.max.majority"
+   ],
+   "context": "at lag 2, 8.9\\% at lag 5, 6.7\\% at lag 10 and 5.2\\% at lag 50 (Figure~\\ref{fig:order}). Restricting"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 7,
+   "number": "6.7",
+   "matches": [
+    "lb.run_holdout.run_fold1.ci1",
+    "lb.run_holdout.run_fold2.index_1nn_next",
+    "lb.run_holdout.run_fold3.index_knn_3",
+    "lb.run_holdout.run_fold3.index_knn_5"
+   ],
+   "context": "at lag 2, 8.9\\% at lag 5, 6.7\\% at lag 10 and 5.2\\% at lag 50 (Figure~\\ref{fig:order}). Restricting"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 7,
+   "number": "10",
+   "matches": [
+    "lb.session_holdout.ses2.ci1",
+    "repro.upstream_max.seed2",
+    "upstream.printed_result",
+    "pa.real.acc_nb_same.min"
+   ],
+   "context": "at lag 2, 8.9\\% at lag 5, 6.7\\% at lag 10 and 5.2\\% at lag 50 (Figure~\\ref{fig:order}). Restricting"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 7,
+   "number": "5.2",
+   "matches": [
+    "lb.run_holdout.mean3.index_knn_3",
+    "lag50",
+    "split.interleaved.perm.final.mean",
+    "split.random_trial.perm.upstream_max.mean"
+   ],
+   "context": "at lag 2, 8.9\\% at lag 5, 6.7\\% at lag 10 and 5.2\\% at lag 50 (Figure~\\ref{fig:order}). Restricting"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 7,
+   "number": "50",
+   "matches": [],
+   "context": "at lag 2, 8.9\\% at lag 5, 6.7\\% at lag 10 and 5.2\\% at lag 50 (Figure~\\ref{fig:order}). Restricting"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 8,
+   "number": "0.6",
+   "matches": [
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.min.majority",
+    "lb.session_holdout.min.run_majority"
+   ],
+   "context": "to pairs within the same run changes these by at most 0.6 points. Runs are also unevenly composed:"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 9,
+   "number": "30",
+   "matches": [
+    "cats_per_run_median"
+   ],
+   "context": "a run contains a median of 30 of the 39 categories, and its most frequent category makes up a median"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 9,
+   "number": "39",
+   "matches": [
+    "n_classes"
+   ],
+   "context": "a run contains a median of 30 of the 39 categories, and its most frequent category makes up a median"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 10,
+   "number": "12.9",
+   "matches": [
+    "top_cat_share_median"
+   ],
+   "context": "12.9\\% of its trials (maximum 33.6\\%). The trial's position within its run carries no category"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 10,
+   "number": "33.6",
+   "matches": [
+    "top_cat_share_max"
+   ],
+   "context": "12.9\\% of its trials (maximum 33.6\\%). The trial's position within its run carries no category"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 12,
+   "number": "3.7",
+   "matches": [
+    "lb.interleaved.interleaved.position_majority",
+    "lb.interleaved.mean.position_majority",
+    "lb.interleaved.min.position_majority",
+    "lb.interleaved.max.position_majority"
+   ],
+   "context": "3.7\\%, below the majority-class rate."
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 18,
+   "number": "1",
+   "matches": [
+    "lb.run_holdout.run_fold0.ci0",
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.ses2.index_1nn_next"
+   ],
+   "context": "runs 1--3, in presentation order (white lines separate runs). Right: probability that two trials"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 18,
+   "number": "-3",
+   "matches": [
+    "lb.interleaved.interleaved.prior_sample",
+    "lb.interleaved.mean.prior_sample",
+    "lb.interleaved.min.prior_sample",
+    "lb.interleaved.max.prior_sample"
+   ],
+   "context": "runs 1--3, in presentation order (white lines separate runs). Right: probability that two trials"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 28,
+   "number": "18.82",
+   "matches": [
+    "lb.interleaved.interleaved.index_1nn_prev",
+    "lb.interleaved.mean.index_1nn_prev",
+    "lb.interleaved.min.index_1nn_prev",
+    "lb.interleaved.max.index_1nn_prev"
+   ],
+   "context": "\\textbf{18.82\\%} (95\\% CI 16.49--21.57) on the published evaluation set, above the 13.88\\% the paper"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 28,
+   "number": "95",
+   "matches": [],
+   "context": "\\textbf{18.82\\%} (95\\% CI 16.49--21.57) on the published evaluation set, above the 13.88\\% the paper"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 28,
+   "number": "16.49",
+   "matches": [
+    "lb.interleaved.interleaved.ci0"
+   ],
+   "context": "\\textbf{18.82\\%} (95\\% CI 16.49--21.57) on the published evaluation set, above the 13.88\\% the paper"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 28,
+   "number": "-21.57",
+   "matches": [
+    "lb.interleaved.interleaved.ci1"
+   ],
+   "context": "\\textbf{18.82\\%} (95\\% CI 16.49--21.57) on the published evaluation set, above the 13.88\\% the paper"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 28,
+   "number": "13.88",
+   "matches": [
+    "published.S1"
+   ],
+   "context": "\\textbf{18.82\\%} (95\\% CI 16.49--21.57) on the published evaluation set, above the 13.88\\% the paper"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 29,
+   "number": "20.90",
+   "matches": [
+    "lb.interleaved.interleaved.index_knn_5",
+    "lb.interleaved.mean.index_knn_5",
+    "lb.interleaved.min.index_knn_5",
+    "lb.interleaved.max.index_knn_5"
+   ],
+   "context": "reports with EEG. A five-nearest-neighbour vote over trial position scores 20.90\\%, and knowing only"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 30,
+   "number": "14.41",
+   "matches": [
+    "lb.interleaved.interleaved.run_majority",
+    "lb.interleaved.mean.run_majority",
+    "lb.interleaved.min.run_majority",
+    "lb.interleaved.max.run_majority"
+   ],
+   "context": "which run a trial came from (predicting that run's most common training category) scores 14.41\\%."
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 33,
+   "number": "1000",
+   "matches": [],
+   "context": "Two order controls locate the information. Shuffling all labels across the recording (1{,}000"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 34,
+   "number": "2.92",
+   "matches": [
+    "lb.random_trial.random_trial.prior_sample",
+    "lb.random_trial.mean.prior_sample",
+    "lb.random_trial.min.prior_sample",
+    "lb.random_trial.max.prior_sample"
+   ],
+   "context": "permutations) drops the copy-previous classifier to 2.92\\% on average (maximum 4.24\\%). Shuffling"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 34,
+   "number": "4.24",
+   "matches": [
+    "order.global_shuffle.max"
+   ],
+   "context": "permutations) drops the copy-previous classifier to 2.92\\% on average (maximum 4.24\\%). Shuffling"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 36,
+   "number": "5.96",
+   "matches": [
+    "order.within_run_shuffle.mean"
+   ],
+   "context": "drops it to 5.96\\% (maximum 8.25\\%). Most of the 18.8\\% therefore comes from adjacency within runs,"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 36,
+   "number": "8.25",
+   "matches": [
+    "order.within_run_shuffle.max"
+   ],
+   "context": "drops it to 5.96\\% (maximum 8.25\\%). Most of the 18.8\\% therefore comes from adjacency within runs,"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 36,
+   "number": "18.8",
+   "matches": [
+    "lb.interleaved.interleaved.index_1nn_prev",
+    "lb.interleaved.mean.index_1nn_prev",
+    "lb.interleaved.min.index_1nn_prev",
+    "lb.interleaved.max.index_1nn_prev"
+   ],
+   "context": "drops it to 5.96\\% (maximum 8.25\\%). Most of the 18.8\\% therefore comes from adjacency within runs,"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 40,
+   "number": "2.42",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_1nn_prev",
+    "lb.run_holdout.min.index_1nn_prev",
+    "paired.imagine.run_holdout.min"
+   ],
+   "context": "classifiers lose their advantage: copy-previous scores 2.42--5.67\\% across the five run folds, and"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 40,
+   "number": "-5.67",
+   "matches": [
+    "lb.run_holdout.run_fold4.index_1nn_prev",
+    "lb.run_holdout.run_fold4.index_knn_3",
+    "lb.run_holdout.max.index_1nn_prev",
+    "lb.session_holdout.ses2.index_knn_3"
+   ],
+   "context": "classifiers lose their advantage: copy-previous scores 2.42--5.67\\% across the five run folds, and"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 41,
+   "number": "3.05",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_knn_5",
+    "lb.run_holdout.min.index_knn_5"
+   ],
+   "context": "the five-nearest vote 3.05--8.58\\%."
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 41,
+   "number": "-8.58",
+   "matches": [
+    "lb.run_holdout.run_fold2.index_knn_5",
+    "lb.run_holdout.max.index_knn_5"
+   ],
+   "context": "the five-nearest vote 3.05--8.58\\%."
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 48,
+   "number": "3.3",
+   "matches": [
+    "lb.session_holdout.mean3.index_1nn_prev",
+    "lb.session_holdout.mean.index_knn_5",
+    "split.session_holdout.perm.final.seed2",
+    "split.session_holdout.no_eeg_prev"
+   ],
+   "context": "the 3.3\\,s epoch (244 numbers per trial, no waveform), fed to a multinomial logistic regression."
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 48,
+   "number": "244",
+   "matches": [
+    "drift_feats"
+   ],
+   "context": "the 3.3\\,s epoch (244 numbers per trial, no waveform), fed to a multinomial logistic regression."
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 49,
+   "number": "45",
+   "matches": [
+    "n_runs"
+   ],
+   "context": "On the released split, these features identify which of the 45 runs a held-out trial came from with"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 50,
+   "number": "98.8",
+   "matches": [
+    "drift.run"
+   ],
+   "context": "\\textbf{98.8\\%} accuracy (chance 2.2\\%). Trained to predict category instead, the same model scores"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 50,
+   "number": "2.2",
+   "matches": [
+    "lb.session_holdout.ses3.index_knn_11",
+    "drift.run_chance"
+   ],
+   "context": "\\textbf{98.8\\%} accuracy (chance 2.2\\%). Trained to predict category instead, the same model scores"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 51,
+   "number": "9.05",
+   "matches": [
+    "drift.interleaved.real_mean"
+   ],
+   "context": "\\textbf{9.05\\%} on the published evaluation set (permuted-label null: mean 3.11\\%, maximum 3.84\\% over"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 51,
+   "number": "3.11",
+   "matches": [
+    "drift.interleaved.null_mean",
+    "split.run_holdout.perm.val_selected.seed0"
+   ],
+   "context": "\\textbf{9.05\\%} on the published evaluation set (permuted-label null: mean 3.11\\%, maximum 3.84\\% over"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 51,
+   "number": "3.84",
+   "matches": [
+    "order.global_shuffle.p97.5",
+    "drift.interleaved.null_max"
+   ],
+   "context": "\\textbf{9.05\\%} on the published evaluation set (permuted-label null: mean 3.11\\%, maximum 3.84\\% over"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 52,
+   "number": "7.37",
+   "matches": [
+    "drift.random_trial.real_mean",
+    "repro.val_selected.seed2"
+   ],
+   "context": "five permutations) and 7.37\\% on a random-trial split, but 3.55\\% under run holdout (null 2.76\\%,"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 52,
+   "number": "3.55",
+   "matches": [
+    "drift.run_holdout.real_mean",
+    "split.random_trial.perm.final.mean"
+   ],
+   "context": "five permutations) and 7.37\\% on a random-trial split, but 3.55\\% under run holdout (null 2.76\\%,"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 52,
+   "number": "2.76",
+   "matches": [
+    "drift.run_holdout.null_mean"
+   ],
+   "context": "five permutations) and 7.37\\% on a random-trial split, but 3.55\\% under run holdout (null 2.76\\%,"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 53,
+   "number": "3.77",
+   "matches": [
+    "lb.run_holdout.run_fold3.position_majority",
+    "lb.run_holdout.max.position_majority",
+    "drift.run_holdout.null_max"
+   ],
+   "context": "maximum 3.77\\%) and 3.08\\% under session holdout (null 2.79\\%). Per-trial summary statistics are"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 53,
+   "number": "3.08",
+   "matches": [
+    "drift.session_holdout.real_mean"
+   ],
+   "context": "maximum 3.77\\%) and 3.08\\% under session holdout (null 2.79\\%). Per-trial summary statistics are"
+  },
+  {
+   "file": "paper/sections/audit.tex",
+   "line": 53,
+   "number": "2.79",
+   "matches": [
+    "lb.session_holdout.ses3.index_1nn_prev",
+    "drift.session_holdout.null_mean"
+   ],
+   "context": "maximum 3.77\\%) and 3.08\\% under session holdout (null 2.79\\%). Per-trial summary statistics are"
+  },
+  {
+   "file": "paper/sections/conclusion.tex",
+   "line": 6,
+   "number": "8.8",
+   "matches": [
+    "repro.upstream_max.mean",
+    "published.S1.ckc"
+   ],
+   "context": "the released configuration gives 8.8--9.7\\% instead of 13.88\\%; a model with no label information"
+  },
+  {
+   "file": "paper/sections/conclusion.tex",
+   "line": 6,
+   "number": "-9.7",
+   "matches": [
+    "upstream.printed_result"
+   ],
+   "context": "the released configuration gives 8.8--9.7\\% instead of 13.88\\%; a model with no label information"
+  },
+  {
+   "file": "paper/sections/conclusion.tex",
+   "line": 6,
+   "number": "13.88",
+   "matches": [
+    "published.S1"
+   ],
+   "context": "the released configuration gives 8.8--9.7\\% instead of 13.88\\%; a model with no label information"
+  },
+  {
+   "file": "paper/sections/conclusion.tex",
+   "line": 7,
+   "number": "6.4",
+   "matches": [
+    "repro_null.upstream_max.mean",
+    "split.interleaved.real.val_selected.seed0",
+    "split.run_holdout.real.upstream_max.seed1"
+   ],
+   "context": "reaches 6.4\\% under the published reporting rule; and once whole runs are held out, the remaining"
+  },
+  {
+   "file": "paper/sections/discussion.tex",
+   "line": 6,
+   "number": "18.8",
+   "matches": [
+    "lb.interleaved.interleaved.index_1nn_prev",
+    "lb.interleaved.mean.index_1nn_prev",
+    "lb.interleaved.min.index_1nn_prev",
+    "lb.interleaved.max.index_1nn_prev"
+   ],
+   "context": "First, the released evaluation set can be predicted from trial position alone at 18.8\\%, so an"
+  },
+  {
+   "file": "paper/sections/discussion.tex",
+   "line": 8,
+   "number": "13.88",
+   "matches": [
+    "published.S1"
+   ],
+   "context": "code and configuration did not produce 13.88\\% on our hardware: the released script printed 9.69\\%"
+  },
+  {
+   "file": "paper/sections/discussion.tex",
+   "line": 8,
+   "number": "9.69",
+   "matches": [
+    "upstream.printed_result"
+   ],
+   "context": "code and configuration did not produce 13.88\\% on our hardware: the released script printed 9.69\\%"
+  },
+  {
+   "file": "paper/sections/discussion.tex",
+   "line": 9,
+   "number": "8.75",
+   "matches": [
+    "repro.upstream_max.mean"
+   ],
+   "context": "and our re-implementation 8.75\\% $\\pm$ 0.67 under the same rule. Third, the published selection rule"
+  },
+  {
+   "file": "paper/sections/discussion.tex",
+   "line": 9,
+   "number": "0.67",
+   "matches": [
+    "repro.upstream_max.sd"
+   ],
+   "context": "and our re-implementation 8.75\\% $\\pm$ 0.67 under the same rule. Third, the published selection rule"
+  },
+  {
+   "file": "paper/sections/discussion.tex",
+   "line": 10,
+   "number": "5.2",
+   "matches": [
+    "lb.run_holdout.mean3.index_knn_3",
+    "lag50",
+    "split.interleaved.perm.final.mean",
+    "split.random_trial.perm.upstream_max.mean"
+   ],
+   "context": "reports 5.2--6.4\\% for models trained on permuted labels, so the paper's own shuffled baseline"
+  },
+  {
+   "file": "paper/sections/discussion.tex",
+   "line": 10,
+   "number": "-6.4",
+   "matches": [
+    "repro_null.upstream_max.mean",
+    "split.interleaved.real.val_selected.seed0",
+    "split.run_holdout.real.upstream_max.seed1"
+   ],
+   "context": "reports 5.2--6.4\\% for models trained on permuted labels, so the paper's own shuffled baseline"
+  },
+  {
+   "file": "paper/sections/discussion.tex",
+   "line": 11,
+   "number": "5.52",
+   "matches": [
+    "lb.run_holdout.run_fold4.index_knn_5",
+    "split.interleaved.perm.val_selected.seed1",
+    "split.random_trial.perm.upstream_max.seed2",
+    "published.S1.random"
+   ],
+   "context": "(5.52\\%) is the right reference for its number, and the margin over it on our runs is 2.4 points,"
+  },
+  {
+   "file": "paper/sections/discussion.tex",
+   "line": 11,
+   "number": "2.4",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_1nn_prev",
+    "lb.run_holdout.run_fold2.ci0",
+    "lb.run_holdout.min.index_1nn_prev",
+    "repro.diff.upstream_max"
+   ],
+   "context": "(5.52\\%) is the right reference for its number, and the margin over it on our runs is 2.4 points,"
+  },
+  {
+   "file": "paper/sections/discussion.tex",
+   "line": 12,
+   "number": "8.4",
+   "matches": [
+    "repro.upstream_max.seed1",
+    "split.interleaved.real.upstream_max.seed1",
+    "split.interleaved.real.val_selected.seed1",
+    "published.margin"
+   ],
+   "context": "not 8.4. Under run holdout, where the order structure cannot help, real labels lead permuted labels"
+  },
+  {
+   "file": "paper/sections/discussion.tex",
+   "line": 13,
+   "number": "0.64",
+   "matches": [
+    "split.run_holdout.real.final.sd",
+    "split.run_holdout.diff.val_selected",
+    "paired.imagine.run_holdout.mean"
+   ],
+   "context": "by 0.64 points, inside the seed-to-seed spread, and the reading epochs, which we expected to be"
+  },
+  {
+   "file": "paper/sections/discussion.tex",
+   "line": 14,
+   "number": "1.10",
+   "matches": [
+    "read.run_holdout.diff",
+    "paired.read.run_holdout.mean"
+   ],
+   "context": "easier, reach only 1.10 points over their own null under the same split."
+  },
+  {
+   "file": "paper/sections/discussion.tex",
+   "line": 19,
+   "number": "0.64",
+   "matches": [
+    "split.run_holdout.real.final.sd",
+    "split.run_holdout.diff.val_selected",
+    "paired.imagine.run_holdout.mean"
+   ],
+   "context": "A 0.64-point margin with three seeds and three folds is compatible with a small real effect and with"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 6,
+   "number": "14",
+   "matches": [
+    "lb.interleaved.interleaved.run_majority",
+    "lb.interleaved.mean.run_majority",
+    "lb.interleaved.min.run_majority",
+    "lb.interleaved.max.run_majority"
+   ],
+   "context": "task are low, so small differences carry the argument: a result of 14\\% on a 39-way problem is"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 6,
+   "number": "39",
+   "matches": [
+    "n_classes"
+   ],
+   "context": "task are low, so small differences carry the argument: a result of 14\\% on a 39-way problem is"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 7,
+   "number": "11",
+   "matches": [
+    "lag3",
+    "lag3.within",
+    "pa.runmaj_nb_diff"
+   ],
+   "context": "interesting only if one is confident that the 11 points above chance come from the imagined"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 18,
+   "number": "6000",
+   "matches": [],
+   "context": "accuracy. Chisco \\citep{zhang2024chisco} is a large public imagined-speech corpus: over 6{,}000"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 19,
+   "number": "39",
+   "matches": [
+    "n_classes"
+   ],
+   "context": "sentences per participant, recorded across five days and labelled with 39 semantic categories."
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 20,
+   "number": "13.88",
+   "matches": [
+    "published.S1"
+   ],
+   "context": "Its authors report 13.88\\% category accuracy for participant S1 against a 5.52\\% shuffled-label"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 20,
+   "number": "5.52",
+   "matches": [
+    "lb.run_holdout.run_fold4.index_knn_5",
+    "split.interleaved.perm.val_selected.seed1",
+    "split.random_trial.perm.upstream_max.seed2",
+    "published.S1.random"
+   ],
+   "context": "Its authors report 13.88\\% category accuracy for participant S1 against a 5.52\\% shuffled-label"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 26,
+   "number": "19.7",
+   "matches": [
+    "lag1"
+   ],
+   "context": "category 19.7\\% of the time, against 2.95\\% if the same categories were shuffled. On the released"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 26,
+   "number": "2.95",
+   "matches": [
+    "prior_null"
+   ],
+   "context": "category 19.7\\% of the time, against 2.95\\% if the same categories were shuffled. On the released"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 28,
+   "number": "18.8",
+   "matches": [
+    "lb.interleaved.interleaved.index_1nn_prev",
+    "lb.interleaved.mean.index_1nn_prev",
+    "lb.interleaved.min.index_1nn_prev",
+    "lb.interleaved.max.index_1nn_prev"
+   ],
+   "context": "\\textbf{18.8\\%}, above the published EEG result. The EEG, in turn, carries the time stamp this"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 30,
+   "number": "98.8",
+   "matches": [
+    "drift.run"
+   ],
+   "context": "trial with 98.8\\% accuracy. Running the released script with its documented command on our"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 31,
+   "number": "9.69",
+   "matches": [
+    "upstream.printed_result"
+   ],
+   "context": "hardware prints 9.69\\%, not 13.88\\%. Under the same rule, a model trained on permuted labels still"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 31,
+   "number": "13.88",
+   "matches": [
+    "published.S1"
+   ],
+   "context": "hardware prints 9.69\\%, not 13.88\\%. Under the same rule, a model trained on permuted labels still"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 32,
+   "number": "6.4",
+   "matches": [
+    "repro_null.upstream_max.mean",
+    "split.interleaved.real.val_selected.seed0",
+    "split.run_holdout.real.upstream_max.seed1"
+   ],
+   "context": "reports 6.4\\%, and real labels add 2.4 points to that, not the 8.4 the paper reports. When whole"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 32,
+   "number": "2.4",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_1nn_prev",
+    "lb.run_holdout.run_fold2.ci0",
+    "lb.run_holdout.min.index_1nn_prev",
+    "repro.diff.upstream_max"
+   ],
+   "context": "reports 6.4\\%, and real labels add 2.4 points to that, not the 8.4 the paper reports. When whole"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 32,
+   "number": "8.4",
+   "matches": [
+    "repro.upstream_max.seed1",
+    "split.interleaved.real.upstream_max.seed1",
+    "split.interleaved.real.val_selected.seed1",
+    "published.margin"
+   ],
+   "context": "reports 6.4\\%, and real labels add 2.4 points to that, not the 8.4 the paper reports. When whole"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 34,
+   "number": "0.64",
+   "matches": [
+    "split.run_holdout.real.final.sd",
+    "split.run_holdout.diff.val_selected",
+    "paired.imagine.run_holdout.mean"
+   ],
+   "context": "between real and permuted labels falls to 0.64 points, within the variation between seeds."
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 38,
+   "number": "39",
+   "matches": [
+    "n_classes"
+   ],
+   "context": "\\item An audit of the released 39-way benchmark on its exact evaluation split: trial position alone"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 43,
+   "number": "1.4",
+   "matches": [
+    "lb.session_holdout.ses2.index_1nn_next",
+    "repro.max_minus_val.perm",
+    "ckpt.perm.max_minus_mean"
+   ],
+   "context": "(Section~\\ref{sec:results}). The published best-checkpoint rule adds 1.4--1.6 points over a"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 43,
+   "number": "-1.6",
+   "matches": [
+    "lb.session_holdout.mean3.index_1nn_next",
+    "repro.max_minus_val.real"
+   ],
+   "context": "(Section~\\ref{sec:results}). The published best-checkpoint rule adds 1.4--1.6 points over a"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 44,
+   "number": "5.2",
+   "matches": [
+    "lb.run_holdout.mean3.index_knn_3",
+    "lag50",
+    "split.interleaved.perm.final.mean",
+    "split.random_trial.perm.upstream_max.mean"
+   ],
+   "context": "validation-selected checkpoint and reports 5.2--6.4\\% for models trained without label information."
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 44,
+   "number": "-6.4",
+   "matches": [
+    "repro_null.upstream_max.mean",
+    "split.interleaved.real.val_selected.seed0",
+    "split.run_holdout.real.upstream_max.seed1"
+   ],
+   "context": "validation-selected checkpoint and reports 5.2--6.4\\% for models trained without label information."
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 45,
+   "number": "2.11",
+   "matches": [
+    "lb.run_holdout.run_fold3.ci0",
+    "repro.diff.val_selected",
+    "split.interleaved.diff.upstream_max",
+    "split.interleaved.diff.val_selected"
+   ],
+   "context": "\\item A split comparison showing the real-vs-permuted margin shrinking from 2.11 points on the"
+  },
+  {
+   "file": "paper/sections/introduction.tex",
+   "line": 46,
+   "number": "0.64",
+   "matches": [
+    "split.run_holdout.real.final.sd",
+    "split.run_holdout.diff.val_selected",
+    "paired.imagine.run_holdout.mean"
+   ],
+   "context": "released split to 0.64 under run holdout (Section~\\ref{sec:splits})."
+  },
+  {
+   "file": "paper/sections/limitations.tex",
+   "line": 4,
+   "number": "13.59",
+   "matches": [
+    "published.S2"
+   ],
+   "context": "\\textbf{One participant.} All EEG results are for S1. The paper reports S2 and S3 at 13.59\\% and"
+  },
+  {
+   "file": "paper/sections/limitations.tex",
+   "line": 5,
+   "number": "14.02",
+   "matches": [
+    "published.S3"
+   ],
+   "context": "14.02\\%; we did not audit them, and the dataset has two further participants. The no-EEG analysis"
+  },
+  {
+   "file": "paper/sections/limitations.tex",
+   "line": 15,
+   "number": "13.88",
+   "matches": [
+    "published.S1"
+   ],
+   "context": "exact run reached 13.88\\%."
+  },
+  {
+   "file": "paper/sections/limitations.tex",
+   "line": 17,
+   "number": "250",
+   "matches": [],
+   "context": "\\textbf{Two schedules.} The split comparison uses 250\\,Hz and 30 epochs to fit on one machine. It is"
+  },
+  {
+   "file": "paper/sections/limitations.tex",
+   "line": 17,
+   "number": "30",
+   "matches": [
+    "cats_per_run_median"
+   ],
+   "context": "\\textbf{Two schedules.} The split comparison uses 250\\,Hz and 30 epochs to fit on one machine. It is"
+  },
+  {
+   "file": "paper/sections/limitations.tex",
+   "line": 18,
+   "number": "500",
+   "matches": [
+    "sfreq"
+   ],
+   "context": "compared only within itself, not with the 500\\,Hz reproduction."
+  },
+  {
+   "file": "paper/sections/limitations.tex",
+   "line": 24,
+   "number": "3",
+   "matches": [
+    "lb.interleaved.interleaved.prior_sample",
+    "lb.interleaved.mean.prior_sample",
+    "lb.interleaved.min.prior_sample",
+    "lb.interleaved.max.prior_sample"
+   ],
+   "context": "\\textbf{Three seeds.} With $n=3$ per cell we report means, standard deviations and per-seed values,"
+  },
+  {
+   "file": "paper/sections/related.tex",
+   "line": 8,
+   "number": "6000",
+   "matches": [],
+   "context": "decoding neural language: more than 6{,}000 everyday Chinese sentences per participant, recorded over five days with a 128-channel cap,"
+  },
+  {
+   "file": "paper/sections/related.tex",
+   "line": 8,
+   "number": "128",
+   "matches": [],
+   "context": "decoding neural language: more than 6{,}000 everyday Chinese sentences per participant, recorded over five days with a 128-channel cap,"
+  },
+  {
+   "file": "paper/sections/related.tex",
+   "line": 9,
+   "number": "39",
+   "matches": [
+    "n_classes"
+   ],
+   "context": "labelled with 39 semantic categories. Its Technical Validation reports 39-way category accuracies of"
+  },
+  {
+   "file": "paper/sections/related.tex",
+   "line": 9,
+   "number": "39",
+   "matches": [
+    "n_classes"
+   ],
+   "context": "labelled with 39 semantic categories. Its Technical Validation reports 39-way category accuracies of"
+  },
+  {
+   "file": "paper/sections/related.tex",
+   "line": 10,
+   "number": "13.59",
+   "matches": [
+    "published.S2"
+   ],
+   "context": "13.59--14.02\\% for three participants, against shuffled-label baselines of 5.52--5.93\\%, using an"
+  },
+  {
+   "file": "paper/sections/related.tex",
+   "line": 10,
+   "number": "-14.02",
+   "matches": [
+    "published.S3"
+   ],
+   "context": "13.59--14.02\\% for three participants, against shuffled-label baselines of 5.52--5.93\\%, using an"
+  },
+  {
+   "file": "paper/sections/related.tex",
+   "line": 10,
+   "number": "5.52",
+   "matches": [
+    "lb.run_holdout.run_fold4.index_knn_5",
+    "split.interleaved.perm.val_selected.seed1",
+    "split.random_trial.perm.upstream_max.seed2",
+    "published.S1.random"
+   ],
+   "context": "13.59--14.02\\% for three participants, against shuffled-label baselines of 5.52--5.93\\%, using an"
+  },
+  {
+   "file": "paper/sections/related.tex",
+   "line": 10,
+   "number": "-5.93",
+   "matches": [
+    "published.S3.random"
+   ],
+   "context": "13.59--14.02\\% for three participants, against shuffled-label baselines of 5.52--5.93\\%, using an"
+  },
+  {
+   "file": "paper/sections/related.tex",
+   "line": 18,
+   "number": "154",
+   "matches": [],
+   "context": "trials. \\citet{roy2019} reviewed 154 deep-learning EEG studies and recorded, for each, how"
+  },
+  {
+   "file": "paper/sections/related.tex",
+   "line": 22,
+   "number": "39",
+   "matches": [
+    "n_classes"
+   ],
+   "context": "not claim its findings. Our audit targets the 39-way category benchmark as released, and the"
+  },
+  {
+   "file": "paper/sections/related.tex",
+   "line": 26,
+   "number": "294",
+   "matches": [],
+   "context": "\\citet{kapoor2023leakage} survey leakage in 294 papers across 17 fields that adopted ML and"
+  },
+  {
+   "file": "paper/sections/related.tex",
+   "line": 26,
+   "number": "17",
+   "matches": [],
+   "context": "\\citet{kapoor2023leakage} survey leakage in 294 papers across 17 fields that adopted ML and"
+  },
+  {
+   "file": "paper/sections/related.tex",
+   "line": 30,
+   "number": "313",
+   "matches": [
+    "upstream.n_evals",
+    "evals_upstream"
+   ],
+   "context": "training trials, and the reported figure is the best of 313 evaluations on that same set (Section~\\ref{sec:setting})."
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 5,
+   "number": "42",
+   "matches": [],
+   "context": "We ran the released \\texttt{EEGclassify.py} with the README command (seed 42) on our hardware"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 6,
+   "number": "9.69",
+   "matches": [
+    "upstream.printed_result"
+   ],
+   "context": "(Appendix~\\ref{app:upstream}). It printed 9.69\\%. This is the highest of its 313 evaluation-set"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 6,
+   "number": "313",
+   "matches": [
+    "upstream.n_evals",
+    "evals_upstream"
+   ],
+   "context": "(Appendix~\\ref{app:upstream}). It printed 9.69\\%. This is the highest of its 313 evaluation-set"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 7,
+   "number": "66",
+   "matches": [
+    "upstream.argmax_epoch"
+   ],
+   "context": "accuracies, reached in epoch 66; we checked that the printed value equals the maximum of the logged"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 8,
+   "number": "7.77",
+   "matches": [
+    "upstream.final"
+   ],
+   "context": "curve. The last checkpoint scored 7.77\\%, and evaluation accuracy after the 10-epoch warm-up averaged"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 8,
+   "number": "10",
+   "matches": [
+    "lb.session_holdout.ses2.ci1",
+    "repro.upstream_max.seed2",
+    "upstream.printed_result",
+    "pa.real.acc_nb_same.min"
+   ],
+   "context": "curve. The last checkpoint scored 7.77\\%, and evaluation accuracy after the 10-epoch warm-up averaged"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 9,
+   "number": "7.40",
+   "matches": [
+    "upstream.post_warmup_mean"
+   ],
+   "context": "7.40\\% (SD 0.84). The published 13.88\\% is 4.2 points above the best value this run reached."
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 9,
+   "number": "0.84",
+   "matches": [
+    "upstream.post_warmup_sd"
+   ],
+   "context": "7.40\\% (SD 0.84). The published 13.88\\% is 4.2 points above the best value this run reached."
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 9,
+   "number": "13.88",
+   "matches": [
+    "published.S1"
+   ],
+   "context": "7.40\\% (SD 0.84). The published 13.88\\% is 4.2 points above the best value this run reached."
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 9,
+   "number": "4.2",
+   "matches": [
+    "lb.run_holdout.run_fold0.ci1",
+    "order.global_shuffle.max",
+    "repro_null.val_selected.seed1",
+    "split.random_trial.perm.val_selected.seed0"
+   ],
+   "context": "7.40\\% (SD 0.84). The published 13.88\\% is 4.2 points above the best value this run reached."
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 13,
+   "number": "0.043",
+   "matches": [
+    "loss_diff_max"
+   ],
+   "context": "that of the released script by at most 0.043 (mean 0.016) across three seeds, ending at 3.37--3.40 against"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 13,
+   "number": "0.016",
+   "matches": [
+    "loss_diff_mean"
+   ],
+   "context": "that of the released script by at most 0.043 (mean 0.016) across three seeds, ending at 3.37--3.40 against"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 13,
+   "number": "3.37",
+   "matches": [
+    "loss_end_lo"
+   ],
+   "context": "that of the released script by at most 0.043 (mean 0.016) across three seeds, ending at 3.37--3.40 against"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 13,
+   "number": "-3.40",
+   "matches": [
+    "lb.session_holdout.mean.index_1nn_prev",
+    "loss_end_hi"
+   ],
+   "context": "that of the released script by at most 0.043 (mean 0.016) across three seeds, ending at 3.37--3.40 against"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 14,
+   "number": "3.40",
+   "matches": [
+    "lb.session_holdout.mean.index_1nn_prev",
+    "loss_end_hi"
+   ],
+   "context": "3.40, and the evaluation curves overlap (Appendix Figure~\\ref{fig:upstream}). Under the published rule it scores 8.75\\% $\\pm$ 0.67 over thre"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 14,
+   "number": "8.75",
+   "matches": [
+    "repro.upstream_max.mean"
+   ],
+   "context": "3.40, and the evaluation curves overlap (Appendix Figure~\\ref{fig:upstream}). Under the published rule it scores 8.75\\% $\\pm$ 0.67 over thre"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 14,
+   "number": "0.67",
+   "matches": [
+    "repro.upstream_max.sd"
+   ],
+   "context": "3.40, and the evaluation curves overlap (Appendix Figure~\\ref{fig:upstream}). Under the published rule it scores 8.75\\% $\\pm$ 0.67 over thre"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 15,
+   "number": "8.33",
+   "matches": [
+    "repro.upstream_max.seed0"
+   ],
+   "context": "seeds (8.33, 8.41, 9.53), against 9.69\\% for the released script's single seed. Neither reaches"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 15,
+   "number": "8.41",
+   "matches": [
+    "repro.upstream_max.seed1",
+    "split.interleaved.real.upstream_max.seed1",
+    "split.interleaved.real.val_selected.seed1"
+   ],
+   "context": "seeds (8.33, 8.41, 9.53), against 9.69\\% for the released script's single seed. Neither reaches"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 15,
+   "number": "9.53",
+   "matches": [
+    "repro.upstream_max.seed2"
+   ],
+   "context": "seeds (8.33, 8.41, 9.53), against 9.69\\% for the released script's single seed. Neither reaches"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 15,
+   "number": "9.69",
+   "matches": [
+    "upstream.printed_result"
+   ],
+   "context": "seeds (8.33, 8.41, 9.53), against 9.69\\% for the released script's single seed. Neither reaches"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 16,
+   "number": "13.88",
+   "matches": [
+    "published.S1"
+   ],
+   "context": "13.88\\%. We do not know what accounts for the remaining difference; candidates include hardware,"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 20,
+   "number": "281",
+   "matches": [
+    "evals_ours"
+   ],
+   "context": "Table~\\ref{tab:repro} reads three rules from the same runs. Taking the best of 281 evaluations gives"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 21,
+   "number": "8.75",
+   "matches": [
+    "repro.upstream_max.mean"
+   ],
+   "context": "8.75\\% with real labels and 6.38\\% with permuted training labels; the permuted value is 0.9 points"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 21,
+   "number": "6.38",
+   "matches": [
+    "repro_null.upstream_max.mean"
+   ],
+   "context": "8.75\\% with real labels and 6.38\\% with permuted training labels; the permuted value is 0.9 points"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 21,
+   "number": "0.9",
+   "matches": [
+    "perm_max_minus_published_random",
+    "split.random_trial.real.upstream_max.sd",
+    "split.random_trial.real.final.sd",
+    "split.random_trial.perm.final.sd"
+   ],
+   "context": "8.75\\% with real labels and 6.38\\% with permuted training labels; the permuted value is 0.9 points"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 22,
+   "number": "5.52",
+   "matches": [
+    "lb.run_holdout.run_fold4.index_knn_5",
+    "split.interleaved.perm.val_selected.seed1",
+    "split.random_trial.perm.upstream_max.seed2",
+    "published.S1.random"
+   ],
+   "context": "above the paper's own shuffled baseline (5.52\\%), which used the same rule. Choosing the checkpoint on"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 23,
+   "number": "7.13",
+   "matches": [
+    "repro.val_selected.mean",
+    "repro.val_selected.seed0"
+   ],
+   "context": "held-out validation data instead gives 7.13\\% and 5.02\\%, and the last checkpoint 7.39\\% and 4.80\\%."
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 23,
+   "number": "5.02",
+   "matches": [
+    "repro_null.val_selected.mean",
+    "ckpt.perm.post_warmup_mean"
+   ],
+   "context": "held-out validation data instead gives 7.13\\% and 5.02\\%, and the last checkpoint 7.39\\% and 4.80\\%."
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 23,
+   "number": "7.39",
+   "matches": [
+    "repro.final.mean"
+   ],
+   "context": "held-out validation data instead gives 7.13\\% and 5.02\\%, and the last checkpoint 7.39\\% and 4.80\\%."
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 23,
+   "number": "4.80",
+   "matches": [
+    "repro_null.final.mean",
+    "split.random_trial.perm.upstream_max.seed0"
+   ],
+   "context": "held-out validation data instead gives 7.13\\% and 5.02\\%, and the last checkpoint 7.39\\% and 4.80\\%."
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 24,
+   "number": "1.6",
+   "matches": [
+    "lb.session_holdout.mean3.index_1nn_next",
+    "repro.max_minus_val.real"
+   ],
+   "context": "The max rule therefore adds 1.6 points to the real-label result and 1.4 to the permuted one; in both"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 24,
+   "number": "1.4",
+   "matches": [
+    "lb.session_holdout.ses2.index_1nn_next",
+    "repro.max_minus_val.perm",
+    "ckpt.perm.max_minus_mean"
+   ],
+   "context": "The max rule therefore adds 1.6 points to the real-label result and 1.4 to the permuted one; in both"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 25,
+   "number": "7.01",
+   "matches": [
+    "ckpt.real.post_warmup_mean"
+   ],
+   "context": "cases the maximum sits above the average over all post-warm-up evaluations (7.01\\% real, 5.02\\%"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 25,
+   "number": "5.02",
+   "matches": [
+    "repro_null.val_selected.mean",
+    "ckpt.perm.post_warmup_mean"
+   ],
+   "context": "cases the maximum sits above the average over all post-warm-up evaluations (7.01\\% real, 5.02\\%"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 26,
+   "number": "1.75",
+   "matches": [
+    "ckpt.real.max_minus_mean"
+   ],
+   "context": "permuted) by 1.75 and 1.35 points (Figure~\\ref{fig:curves}). Real labels beat permuted labels by 2.1"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 26,
+   "number": "1.35",
+   "matches": [
+    "ckpt.perm.max_minus_mean"
+   ],
+   "context": "permuted) by 1.75 and 1.35 points (Figure~\\ref{fig:curves}). Real labels beat permuted labels by 2.1"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 26,
+   "number": "2.1",
+   "matches": [
+    "lb.run_holdout.run_fold3.ci0",
+    "repro.diff.val_selected",
+    "split.interleaved.diff.upstream_max",
+    "split.interleaved.diff.val_selected"
+   ],
+   "context": "permuted) by 1.75 and 1.35 points (Figure~\\ref{fig:curves}). Real labels beat permuted labels by 2.1"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 27,
+   "number": "2.6",
+   "matches": [
+    "lb.run_holdout.run_fold3.majority",
+    "lb.run_holdout.run_fold3.run_majority",
+    "lb.run_holdout.min.majority",
+    "lb.run_holdout.min.run_majority"
+   ],
+   "context": "to 2.6 points under every rule. The published margin is 8.4."
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 27,
+   "number": "8.4",
+   "matches": [
+    "repro.upstream_max.seed1",
+    "split.interleaved.real.upstream_max.seed1",
+    "split.interleaved.real.val_selected.seed1",
+    "published.margin"
+   ],
+   "context": "to 2.6 points under every rule. The published margin is 8.4."
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 38,
+   "number": "281",
+   "matches": [
+    "evals_ours"
+   ],
+   "context": "at each of the 281 evaluations of the published configuration (three seeds each), with running"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 46,
+   "number": "18.8",
+   "matches": [
+    "lb.interleaved.interleaved.index_1nn_prev",
+    "lb.interleaved.mean.index_1nn_prev",
+    "lb.interleaved.min.index_1nn_prev",
+    "lb.interleaved.max.index_1nn_prev"
+   ],
+   "context": "18.8\\% of evaluation trials. At the validation-selected checkpoint, real-label models predict that"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 47,
+   "number": "6.5",
+   "matches": [
+    "split.random_trial.real.upstream_max.seed0",
+    "split.random_trial.real.upstream_max.seed1",
+    "pa.real.copy_rate.min",
+    "pa.real.acc_nb_diff.max"
+   ],
+   "context": "neighbour's category for 6.5--7.6\\% of evaluation trials, 2.4--3.7 points more than their own class"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 47,
+   "number": "-7.6",
+   "matches": [
+    "lb.session_holdout.ses4.index_1nn_next",
+    "lb.session_holdout.max.index_1nn_next",
+    "split.interleaved.real.val_selected.mean",
+    "read.interleaved.real.upstream_max.mean"
+   ],
+   "context": "neighbour's category for 6.5--7.6\\% of evaluation trials, 2.4--3.7 points more than their own class"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 47,
+   "number": "2.4",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_1nn_prev",
+    "lb.run_holdout.run_fold2.ci0",
+    "lb.run_holdout.min.index_1nn_prev",
+    "repro.diff.upstream_max"
+   ],
+   "context": "neighbour's category for 6.5--7.6\\% of evaluation trials, 2.4--3.7 points more than their own class"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 47,
+   "number": "-3.7",
+   "matches": [
+    "lb.interleaved.interleaved.position_majority",
+    "lb.interleaved.mean.position_majority",
+    "lb.interleaved.min.position_majority",
+    "lb.interleaved.max.position_majority"
+   ],
+   "context": "neighbour's category for 6.5--7.6\\% of evaluation trials, 2.4--3.7 points more than their own class"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 48,
+   "number": "3.8",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_knn_3",
+    "lb.run_holdout.run_fold3.position_majority",
+    "lb.run_holdout.run_fold4.index_1nn_next",
+    "lb.run_holdout.min.index_knn_3"
+   ],
+   "context": "frequencies would produce if predictions were independent of the neighbour (3.8--4.1\\%)."
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 48,
+   "number": "-4.1",
+   "matches": [
+    "lb.session_holdout.ses2.ci0",
+    "split.run_holdout.real.val_selected.seed1",
+    "split.run_holdout.real.val_selected.seed2",
+    "split.run_holdout.perm.final.mean"
+   ],
+   "context": "frequencies would produce if predictions were independent of the neighbour (3.8--4.1\\%)."
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 49,
+   "number": "4.1",
+   "matches": [
+    "lb.session_holdout.ses2.ci0",
+    "split.run_holdout.real.val_selected.seed1",
+    "split.run_holdout.real.val_selected.seed2",
+    "split.run_holdout.perm.final.mean"
+   ],
+   "context": "Permuted-label models show no excess (4.1--4.6\\% observed vs.\\ 4.4--4.6\\% expected). Real-label"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 49,
+   "number": "-4.6",
+   "matches": [
+    "lb.random_trial.random_trial.majority",
+    "lb.random_trial.mean.majority",
+    "lb.random_trial.min.majority",
+    "lb.random_trial.max.majority"
+   ],
+   "context": "Permuted-label models show no excess (4.1--4.6\\% observed vs.\\ 4.4--4.6\\% expected). Real-label"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 49,
+   "number": "4.4",
+   "matches": [
+    "split.interleaved.perm.final.seed1",
+    "split.run_holdout.real.val_selected.mean",
+    "split.run_holdout.real.final.seed0",
+    "pa.perm.copy_rate_indep.min"
+   ],
+   "context": "Permuted-label models show no excess (4.1--4.6\\% observed vs.\\ 4.4--4.6\\% expected). Real-label"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 49,
+   "number": "-4.6",
+   "matches": [
+    "lb.random_trial.random_trial.majority",
+    "lb.random_trial.mean.majority",
+    "lb.random_trial.min.majority",
+    "lb.random_trial.max.majority"
+   ],
+   "context": "Permuted-label models show no excess (4.1--4.6\\% observed vs.\\ 4.4--4.6\\% expected). Real-label"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 50,
+   "number": "11.8",
+   "matches": [
+    "pa.real.acc_nb_same.mean"
+   ],
+   "context": "accuracy is 11.8\\% on trials whose neighbour shares the category and 6.0\\% on the rest; for permuted"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 50,
+   "number": "6.0",
+   "matches": [
+    "lb.run_holdout.run_fold1.index_knn_5",
+    "lb.run_holdout.mean.index_knn_5",
+    "lag20.within",
+    "order.within_run_shuffle.mean"
+   ],
+   "context": "accuracy is 11.8\\% on trials whose neighbour shares the category and 6.0\\% on the rest; for permuted"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 51,
+   "number": "6.8",
+   "matches": [
+    "lb.run_holdout.run_fold3.index_knn_11",
+    "lb.run_holdout.max.index_knn_11",
+    "lb.session_holdout.ses2.index_1nn_prev",
+    "lb.session_holdout.max.index_1nn_prev"
+   ],
+   "context": "labels the corresponding values are 6.8\\% and 4.6\\%, so part of this gap reflects class frequency"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 51,
+   "number": "4.6",
+   "matches": [
+    "lb.random_trial.random_trial.majority",
+    "lb.random_trial.mean.majority",
+    "lb.random_trial.min.majority",
+    "lb.random_trial.max.majority"
+   ],
+   "context": "labels the corresponding values are 6.8\\% and 4.6\\%, so part of this gap reflects class frequency"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 53,
+   "number": "10.7",
+   "matches": [
+    "pa.runmaj_nb_diff"
+   ],
+   "context": "predicting the most common training category of the trial's run scores 10.7\\% on them without EEG."
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 62,
+   "number": "250",
+   "matches": [],
+   "context": "(Table~\\ref{tab:splits}, Figure~\\ref{fig:splits}; 250\\,Hz, 30 epochs, three seeds, three folds per"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 62,
+   "number": "30",
+   "matches": [
+    "cats_per_run_median"
+   ],
+   "context": "(Table~\\ref{tab:splits}, Figure~\\ref{fig:splits}; 250\\,Hz, 30 epochs, three seeds, three folds per"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 66,
+   "number": "2.11",
+   "matches": [
+    "lb.run_holdout.run_fold3.ci0",
+    "repro.diff.val_selected",
+    "split.interleaved.diff.upstream_max",
+    "split.interleaved.diff.val_selected"
+   ],
+   "context": "With the validation-selected checkpoint, real labels beat permuted labels by 2.11 points on the"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 67,
+   "number": "1.01",
+   "matches": [
+    "split.random_trial.diff.val_selected"
+   ],
+   "context": "released split and 1.01 on a random-trial split, both of which leave nearly every evaluation trial"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 68,
+   "number": "18.82",
+   "matches": [
+    "lb.interleaved.interleaved.index_1nn_prev",
+    "lb.interleaved.mean.index_1nn_prev",
+    "lb.interleaved.min.index_1nn_prev",
+    "lb.interleaved.max.index_1nn_prev"
+   ],
+   "context": "with training neighbours from its own run (the position-only classifier scores 18.82\\% and 18.25\\% on"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 68,
+   "number": "18.25",
+   "matches": [
+    "split.random_trial.no_eeg_prev"
+   ],
+   "context": "with training neighbours from its own run (the position-only classifier scores 18.82\\% and 18.25\\% on"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 69,
+   "number": "4.37",
+   "matches": [
+    "split.run_holdout.real.val_selected.mean",
+    "split.run_holdout.real.final.seed0"
+   ],
+   "context": "them). Holding out whole runs removes those neighbours: accuracy falls to 4.37\\% for real labels and"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 70,
+   "number": "3.73",
+   "matches": [
+    "split.run_holdout.perm.val_selected.mean"
+   ],
+   "context": "3.73\\% for permuted labels, a difference of 0.64 points. Paired by seed and fold, real labels are"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 70,
+   "number": "0.64",
+   "matches": [
+    "split.run_holdout.real.final.sd",
+    "split.run_holdout.diff.val_selected",
+    "paired.imagine.run_holdout.mean"
+   ],
+   "context": "3.73\\% for permuted labels, a difference of 0.64 points. Paired by seed and fold, real labels are"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 71,
+   "number": "7",
+   "matches": [
+    "lb.run_holdout.run_fold1.ci1",
+    "lb.run_holdout.run_fold2.index_1nn_next",
+    "lb.run_holdout.run_fold2.index_knn_3",
+    "lb.run_holdout.run_fold3.index_knn_3"
+   ],
+   "context": "ahead in 7 of 9 comparisons, with differences from $-2.42$ to $+2.71$ points; the mean difference is"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 71,
+   "number": "9",
+   "matches": [
+    "lb.run_holdout.run_fold2.index_knn_5",
+    "lb.run_holdout.run_fold2.ci1",
+    "lb.run_holdout.run_fold4.ci1",
+    "lb.run_holdout.max.index_knn_5"
+   ],
+   "context": "ahead in 7 of 9 comparisons, with differences from $-2.42$ to $+2.71$ points; the mean difference is"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 71,
+   "number": "-2.42",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_1nn_prev",
+    "lb.run_holdout.min.index_1nn_prev",
+    "paired.imagine.run_holdout.min"
+   ],
+   "context": "ahead in 7 of 9 comparisons, with differences from $-2.42$ to $+2.71$ points; the mean difference is"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 71,
+   "number": "2.71",
+   "matches": [
+    "paired.imagine.run_holdout.max"
+   ],
+   "context": "ahead in 7 of 9 comparisons, with differences from $-2.42$ to $+2.71$ points; the mean difference is"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 72,
+   "number": "0.49",
+   "matches": [
+    "split.run_holdout.real.val_selected.sd"
+   ],
+   "context": "about the size of the seed-to-seed standard deviation (0.49 real, 0.60 permuted). With three seeds"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 72,
+   "number": "0.60",
+   "matches": [
+    "split.run_holdout.perm.val_selected.sd"
+   ],
+   "context": "about the size of the seed-to-seed standard deviation (0.49 real, 0.60 permuted). With three seeds"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 74,
+   "number": "2.55",
+   "matches": [
+    "split.session_holdout.real.val_selected.mean"
+   ],
+   "context": "recording day gives 2.55\\% and 2.75\\%, both at uniform chance; because the category mix differs"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 74,
+   "number": "2.75",
+   "matches": [
+    "lb.session_holdout.ses5.prior_sample",
+    "split.session_holdout.perm.val_selected.mean"
+   ],
+   "context": "recording day gives 2.55\\% and 2.75\\%, both at uniform chance; because the category mix differs"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 79,
+   "number": "5.66",
+   "matches": [
+    "split.session_holdout.real.upstream_max.mean"
+   ],
+   "context": "taking the best evaluation-set accuracy over training reports 5.66\\% for real labels and 5.26\\% for"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 79,
+   "number": "5.26",
+   "matches": [
+    "split.session_holdout.perm.upstream_max.mean"
+   ],
+   "context": "taking the best evaluation-set accuracy over training reports 5.66\\% for real labels and 5.26\\% for"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 80,
+   "number": "6.27",
+   "matches": [
+    "split.run_holdout.real.upstream_max.mean"
+   ],
+   "context": "permuted labels, more than double uniform chance. Under run holdout the same rule reports 6.27\\% and"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 81,
+   "number": "5.37",
+   "matches": [
+    "split.run_holdout.perm.upstream_max.mean"
+   ],
+   "context": "5.37\\%. A best-of-many-evaluations number on the evaluation set is therefore not a reliable"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 87,
+   "number": "250",
+   "matches": [],
+   "context": "\\caption{\\textbf{Split comparison} (accuracy, \\%; 250\\,Hz, 30 epochs). EEG columns: mean $\\pm$ SD"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 87,
+   "number": "30",
+   "matches": [
+    "cats_per_run_median"
+   ],
+   "context": "\\caption{\\textbf{Split comparison} (accuracy, \\%; 250\\,Hz, 30 epochs). EEG columns: mean $\\pm$ SD"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 100,
+   "number": "2.56",
+   "matches": [
+    "chance"
+   ],
+   "context": "the same evaluation folds. Dotted line: uniform chance (2.56\\%).}"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 108,
+   "number": "6.99",
+   "matches": [
+    "split.random_trial.real.upstream_max.mean",
+    "read.interleaved.real.val_selected.mean",
+    "pa.real.copy_rate.mean"
+   ],
+   "context": "6.99\\%, slightly below imagined speech (7.58\\%). Under run holdout it scores 4.85\\% against 3.75\\% for"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 108,
+   "number": "7.58",
+   "matches": [
+    "split.interleaved.real.val_selected.mean"
+   ],
+   "context": "6.99\\%, slightly below imagined speech (7.58\\%). Under run holdout it scores 4.85\\% against 3.75\\% for"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 108,
+   "number": "4.85",
+   "matches": [
+    "read.run_holdout.real.val_selected.mean"
+   ],
+   "context": "6.99\\%, slightly below imagined speech (7.58\\%). Under run holdout it scores 4.85\\% against 3.75\\% for"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 108,
+   "number": "3.75",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_knn_3",
+    "lb.run_holdout.run_fold4.index_1nn_next",
+    "lb.run_holdout.min.index_knn_3",
+    "read.run_holdout.perm.val_selected.mean"
+   ],
+   "context": "6.99\\%, slightly below imagined speech (7.58\\%). Under run holdout it scores 4.85\\% against 3.75\\% for"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 109,
+   "number": "1.10",
+   "matches": [
+    "read.run_holdout.diff",
+    "paired.read.run_holdout.mean"
+   ],
+   "context": "permuted labels, a difference of 1.10 points; real labels are ahead in 7 of 9 seed-fold pairs"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 109,
+   "number": "7",
+   "matches": [
+    "lb.run_holdout.run_fold1.ci1",
+    "lb.run_holdout.run_fold2.index_1nn_next",
+    "lb.run_holdout.run_fold2.index_knn_3",
+    "lb.run_holdout.run_fold3.index_knn_3"
+   ],
+   "context": "permuted labels, a difference of 1.10 points; real labels are ahead in 7 of 9 seed-fold pairs"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 109,
+   "number": "9",
+   "matches": [
+    "lb.run_holdout.run_fold2.index_knn_5",
+    "lb.run_holdout.run_fold2.ci1",
+    "lb.run_holdout.run_fold4.ci1",
+    "lb.run_holdout.max.index_knn_5"
+   ],
+   "context": "permuted labels, a difference of 1.10 points; real labels are ahead in 7 of 9 seed-fold pairs"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 110,
+   "number": "-0.46",
+   "matches": [
+    "paired.read.run_holdout.min"
+   ],
+   "context": "(range $-0.46$ to $+4.34$), and most of the difference comes from one of the three held-out folds."
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 110,
+   "number": "4.34",
+   "matches": [
+    "paired.read.run_holdout.max"
+   ],
+   "context": "(range $-0.46$ to $+4.34$), and most of the difference comes from one of the three held-out folds."
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 118,
+   "number": "250",
+   "matches": [],
+   "context": "\\caption{\\textbf{Reading-task control} (validation-selected accuracy, \\%; 250\\,Hz, 30 epochs; 6{,}387"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 118,
+   "number": "30",
+   "matches": [
+    "cats_per_run_median"
+   ],
+   "context": "\\caption{\\textbf{Reading-task control} (validation-selected accuracy, \\%; 250\\,Hz, 30 epochs; 6{,}387"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 118,
+   "number": "6387",
+   "matches": [
+    "n_read"
+   ],
+   "context": "\\caption{\\textbf{Reading-task control} (validation-selected accuracy, \\%; 250\\,Hz, 30 epochs; 6{,}387"
+  },
+  {
+   "file": "paper/sections/results.tex",
+   "line": 119,
+   "number": "5",
+   "matches": [
+    "lb.interleaved.interleaved.majority",
+    "lb.interleaved.mean.majority",
+    "lb.interleaved.min.majority",
+    "lb.interleaved.max.majority"
+   ],
+   "context": "reading epochs of 5\\,s). The last column repeats the imagined-speech difference from"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 6,
+   "number": "5",
+   "matches": [
+    "lb.interleaved.interleaved.majority",
+    "lb.interleaved.mean.majority",
+    "lb.interleaved.min.majority",
+    "lb.interleaved.max.majority"
+   ],
+   "context": "\\texttt{ds005170} \\citep{ds005170}. In each trial the participant reads and memorises a sentence (the first 5\\,s), then imagines"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 7,
+   "number": "3.3",
+   "matches": [
+    "lb.session_holdout.mean3.index_1nn_prev",
+    "lb.session_holdout.mean.index_knn_5",
+    "split.session_holdout.perm.final.seed2",
+    "split.session_holdout.no_eeg_prev"
+   ],
+   "context": "saying it (the next 3.3\\,s). The paper reports 6{,}681 presented sentences per"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 7,
+   "number": "6681",
+   "matches": [
+    "n_presented"
+   ],
+   "context": "saying it (the next 3.3\\,s). The paper reports 6{,}681 presented sentences per"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 9,
+   "number": "6243",
+   "matches": [
+    "n_released"
+   ],
+   "context": "contain 6{,}243 of them: within each of the 45 runs, the released trials are an in-order subsequence"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 9,
+   "number": "45",
+   "matches": [
+    "n_runs"
+   ],
+   "context": "contain 6{,}243 of them: within each of the 45 runs, the released trials are an in-order subsequence"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 10,
+   "number": "438",
+   "matches": [
+    "n_removed"
+   ],
+   "context": "of that run's stimulus list, so preprocessing removed 438 trials and reordered none. Each epoch has"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 11,
+   "number": "125",
+   "matches": [
+    "n_ch"
+   ],
+   "context": "125 channels at 500\\,Hz (1{,}651 samples); as in the released code we keep the 122 EEG channels and"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 11,
+   "number": "500",
+   "matches": [
+    "sfreq"
+   ],
+   "context": "125 channels at 500\\,Hz (1{,}651 samples); as in the released code we keep the 122 EEG channels and"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 11,
+   "number": "1651",
+   "matches": [
+    "n_samples"
+   ],
+   "context": "125 channels at 500\\,Hz (1{,}651 samples); as in the released code we keep the 122 EEG channels and"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 11,
+   "number": "122",
+   "matches": [
+    "n_eeg_ch"
+   ],
+   "context": "125 channels at 500\\,Hz (1{,}651 samples); as in the released code we keep the 122 EEG channels and"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 12,
+   "number": "39",
+   "matches": [
+    "n_classes"
+   ],
+   "context": "scale volts to microvolts, with no further normalisation. Every sentence maps to one of 39 semantic"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 13,
+   "number": "1",
+   "matches": [
+    "lb.run_holdout.run_fold0.ci0",
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.ses2.index_1nn_next"
+   ],
+   "context": "categories through the released \\texttt{textmaps.json}. Uniform chance is $1/39 = 2.56\\%$; always"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 13,
+   "number": "39",
+   "matches": [
+    "n_classes"
+   ],
+   "context": "categories through the released \\texttt{textmaps.json}. Uniform chance is $1/39 = 2.56\\%$; always"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 13,
+   "number": "2.56",
+   "matches": [
+    "chance"
+   ],
+   "context": "categories through the released \\texttt{textmaps.json}. Uniform chance is $1/39 = 2.56\\%$; always"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 14,
+   "number": "4.72",
+   "matches": [
+    "lb.interleaved.interleaved.majority",
+    "lb.interleaved.mean.majority",
+    "lb.interleaved.min.majority",
+    "lb.interleaved.max.majority"
+   ],
+   "context": "predicting the most frequent training category scores 4.72\\% on the evaluation set described below."
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 20,
+   "number": "45",
+   "matches": [
+    "n_runs"
+   ],
+   "context": "for ``reproducing the paper results'' (Appendix~\\ref{app:upstream}). Trials from all 45 runs are"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 21,
+   "number": "5",
+   "matches": [
+    "lb.interleaved.interleaved.majority",
+    "lb.interleaved.mean.majority",
+    "lb.interleaved.min.majority",
+    "lb.interleaved.max.majority"
+   ],
+   "context": "concatenated in recording order and every trial whose position satisfies $i \\bmod 5 = 1$ is placed in"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 21,
+   "number": "1",
+   "matches": [
+    "lb.run_holdout.run_fold0.ci0",
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.ses2.index_1nn_next"
+   ],
+   "context": "concatenated in recording order and every trial whose position satisfies $i \\bmod 5 = 1$ is placed in"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 22,
+   "number": "1249",
+   "matches": [
+    "n_eval"
+   ],
+   "context": "the evaluation set (1{,}249 trials); the other 4{,}994 are used for training. There is no third set."
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 22,
+   "number": "4994",
+   "matches": [
+    "n_train_upstream"
+   ],
+   "context": "the evaluation set (1{,}249 trials); the other 4{,}994 are used for training. There is no third set."
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 23,
+   "number": "100",
+   "matches": [],
+   "context": "Training runs for 100 epochs with AdamW (learning rate $5\\times10^{-4}$, weight decay 0.01, batch 16,"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 23,
+   "number": "5",
+   "matches": [
+    "lb.interleaved.interleaved.majority",
+    "lb.interleaved.mean.majority",
+    "lb.interleaved.min.majority",
+    "lb.interleaved.max.majority"
+   ],
+   "context": "Training runs for 100 epochs with AdamW (learning rate $5\\times10^{-4}$, weight decay 0.01, batch 16,"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 23,
+   "number": "10",
+   "matches": [
+    "lb.session_holdout.ses2.ci1",
+    "repro.upstream_max.seed2",
+    "upstream.printed_result",
+    "pa.real.acc_nb_same.min"
+   ],
+   "context": "Training runs for 100 epochs with AdamW (learning rate $5\\times10^{-4}$, weight decay 0.01, batch 16,"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 23,
+   "number": "-4",
+   "matches": [
+    "lb.interleaved.interleaved.position_majority",
+    "lb.interleaved.mean.position_majority",
+    "lb.interleaved.min.position_majority",
+    "lb.interleaved.max.position_majority"
+   ],
+   "context": "Training runs for 100 epochs with AdamW (learning rate $5\\times10^{-4}$, weight decay 0.01, batch 16,"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 23,
+   "number": "0.01",
+   "matches": [],
+   "context": "Training runs for 100 epochs with AdamW (learning rate $5\\times10^{-4}$, weight decay 0.01, batch 16,"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 23,
+   "number": "16",
+   "matches": [
+    "lb.interleaved.interleaved.ci0",
+    "lb.random_trial.random_trial.ci0"
+   ],
+   "context": "Training runs for 100 epochs with AdamW (learning rate $5\\times10^{-4}$, weight decay 0.01, batch 16,"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 24,
+   "number": "10",
+   "matches": [
+    "lb.session_holdout.ses2.ci1",
+    "repro.upstream_max.seed2",
+    "upstream.printed_result",
+    "pa.real.acc_nb_same.min"
+   ],
+   "context": "linear warm-up over the first 10\\% of steps, then linear decay). Every 100 optimiser steps the model"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 24,
+   "number": "100",
+   "matches": [],
+   "context": "linear warm-up over the first 10\\% of steps, then linear decay). Every 100 optimiser steps the model"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 26,
+   "number": "313",
+   "matches": [
+    "upstream.n_evals",
+    "evals_upstream"
+   ],
+   "context": "evaluations: 313 of them in this configuration. We call this the \\emph{max-over-checkpoints} rule."
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 27,
+   "number": "3",
+   "matches": [
+    "lb.interleaved.interleaved.prior_sample",
+    "lb.interleaved.mean.prior_sample",
+    "lb.interleaved.min.prior_sample",
+    "lb.interleaved.max.prior_sample"
+   ],
+   "context": "Table~3 of the paper reports 13.88\\% for S1 and a 5.52\\% baseline obtained by shuffling the"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 27,
+   "number": "13.88",
+   "matches": [
+    "published.S1"
+   ],
+   "context": "Table~3 of the paper reports 13.88\\% for S1 and a 5.52\\% baseline obtained by shuffling the"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 27,
+   "number": "5.52",
+   "matches": [
+    "lb.run_holdout.run_fold4.index_knn_5",
+    "split.interleaved.perm.val_selected.seed1",
+    "split.random_trial.perm.upstream_max.seed2",
+    "published.S1.random"
+   ],
+   "context": "Table~3 of the paper reports 13.88\\% for S1 and a 5.52\\% baseline obtained by shuffling the"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 35,
+   "number": "10",
+   "matches": [
+    "lb.session_holdout.ses2.ci1",
+    "repro.upstream_max.seed2",
+    "upstream.printed_result",
+    "pa.real.acc_nb_same.min"
+   ],
+   "context": "To read a second selection rule from the same runs, we hold out a random 10\\% of the training"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 36,
+   "number": "499",
+   "matches": [
+    "n_val"
+   ],
+   "context": "trials (499) as a validation set, so our models train on 4{,}495 trials and are evaluated"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 36,
+   "number": "4495",
+   "matches": [
+    "n_train_ours"
+   ],
+   "context": "trials (499) as a validation set, so our models train on 4{,}495 trials and are evaluated"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 37,
+   "number": "281",
+   "matches": [
+    "evals_ours"
+   ],
+   "context": "281 times. All runs use Apple-silicon GPUs (PyTorch MPS, float32) and three seeds."
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 50,
+   "number": "80",
+   "matches": [
+    "fold2_share"
+   ],
+   "context": "Besides the released split (\\emph{interleaved}) we use three others, each leaving about 80\\% of"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 52,
+   "number": "20",
+   "matches": [
+    "lb.interleaved.interleaved.index_1nn_next",
+    "lb.interleaved.interleaved.index_knn_3",
+    "lb.interleaved.mean.index_1nn_next",
+    "lb.interleaved.min.index_1nn_next"
+   ],
+   "context": "\\emph{random-trial} (a random 20\\% of trials);"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 53,
+   "number": "45",
+   "matches": [
+    "n_runs"
+   ],
+   "context": "\\emph{run holdout} (the 45 runs in five fixed folds of nine runs; we report held-out folds 0--2); and"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 53,
+   "number": "0",
+   "matches": [
+    "lb.session_holdout.ses1.index_1nn_prev",
+    "lb.session_holdout.ses1.index_1nn_next",
+    "lb.session_holdout.ses1.index_knn_3",
+    "lb.session_holdout.ses1.index_knn_5"
+   ],
+   "context": "\\emph{run holdout} (the 45 runs in five fixed folds of nine runs; we report held-out folds 0--2); and"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 53,
+   "number": "-2",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_1nn_prev",
+    "lb.run_holdout.run_fold1.ci0",
+    "lb.run_holdout.run_fold2.ci0",
+    "lb.run_holdout.run_fold3.ci0"
+   ],
+   "context": "\\emph{run holdout} (the 45 runs in five fixed folds of nine runs; we report held-out folds 0--2); and"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 54,
+   "number": "1",
+   "matches": [
+    "lb.run_holdout.run_fold0.ci0",
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.ses2.index_1nn_next"
+   ],
+   "context": "\\emph{session holdout} (one recording day held out at a time; we report days 1--3)."
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 54,
+   "number": "-3",
+   "matches": [
+    "lb.interleaved.interleaved.prior_sample",
+    "lb.interleaved.mean.prior_sample",
+    "lb.interleaved.min.prior_sample",
+    "lb.interleaved.max.prior_sample"
+   ],
+   "context": "\\emph{session holdout} (one recording day held out at a time; we report days 1--3)."
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 57,
+   "number": "250",
+   "matches": [],
+   "context": "250\\,Hz (pairwise averaging) and 30 epochs; it is compared only within itself. As a positive control"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 57,
+   "number": "30",
+   "matches": [
+    "cats_per_run_median"
+   ],
+   "context": "250\\,Hz (pairwise averaging) and 30 epochs; it is compared only within itself. As a positive control"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 58,
+   "number": "5",
+   "matches": [
+    "lb.interleaved.interleaved.majority",
+    "lb.interleaved.mean.majority",
+    "lb.interleaved.min.majority",
+    "lb.interleaved.max.majority"
+   ],
+   "context": "we also train on the reading epochs (the first 5\\,s of each trial; 6{,}387 released epochs for S1,"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 58,
+   "number": "6387",
+   "matches": [
+    "n_read"
+   ],
+   "context": "we also train on the reading epochs (the first 5\\,s of each trial; 6{,}387 released epochs for S1,"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 59,
+   "number": "2501",
+   "matches": [
+    "read_samples"
+   ],
+   "context": "2{,}501 samples at 500\\,Hz), whose labels and trial order follow the same stimulus lists."
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 59,
+   "number": "500",
+   "matches": [
+    "sfreq"
+   ],
+   "context": "2{,}501 samples at 500\\,Hz), whose labels and trial order follow the same stimulus lists."
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 67,
+   "number": "3",
+   "matches": [
+    "lb.interleaved.interleaved.prior_sample",
+    "lb.interleaved.mean.prior_sample",
+    "lb.interleaved.min.prior_sample",
+    "lb.interleaved.max.prior_sample"
+   ],
+   "context": "The unit of replication for EEG models is a training seed ($n=3$). We report per-seed values, means"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 69,
+   "number": "95",
+   "matches": [],
+   "context": "classifier on the evaluation set we report 95\\% intervals from a bootstrap that resamples test"
+  },
+  {
+   "file": "paper/sections/setting.tex",
+   "line": 70,
+   "number": "2000",
+   "matches": [],
+   "context": "\\emph{runs} (2{,}000 draws), because trials within a run share stimulus-list structure and are not"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 8,
+   "number": "0",
+   "matches": [
+    "lb.session_holdout.ses1.index_1nn_prev",
+    "lb.session_holdout.ses1.index_1nn_next",
+    "lb.session_holdout.ses1.index_knn_3",
+    "lb.session_holdout.ses1.index_knn_5"
+   ],
+   "context": "python -u EEGclassify.py --rand_guess 0 --lr1 5e-4 --epoch 100 --layer 1"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 8,
+   "number": "5",
+   "matches": [
+    "lb.interleaved.interleaved.majority",
+    "lb.interleaved.mean.majority",
+    "lb.interleaved.min.majority",
+    "lb.interleaved.max.majority"
+   ],
+   "context": "python -u EEGclassify.py --rand_guess 0 --lr1 5e-4 --epoch 100 --layer 1"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 8,
+   "number": "4",
+   "matches": [
+    "lb.interleaved.interleaved.position_majority",
+    "lb.interleaved.mean.position_majority",
+    "lb.interleaved.min.position_majority",
+    "lb.interleaved.max.position_majority"
+   ],
+   "context": "python -u EEGclassify.py --rand_guess 0 --lr1 5e-4 --epoch 100 --layer 1"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 8,
+   "number": "100",
+   "matches": [],
+   "context": "python -u EEGclassify.py --rand_guess 0 --lr1 5e-4 --epoch 100 --layer 1"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 8,
+   "number": "1",
+   "matches": [
+    "lb.run_holdout.run_fold0.ci0",
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.ses2.index_1nn_next"
+   ],
+   "context": "python -u EEGclassify.py --rand_guess 0 --lr1 5e-4 --epoch 100 --layer 1"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 9,
+   "number": "01",
+   "matches": [
+    "lb.run_holdout.run_fold0.ci0",
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.ses2.index_1nn_next"
+   ],
+   "context": "--pooling mean --dataset imagine_decode --sub \"01\" --cls 39 --dropout1 0.5"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 9,
+   "number": "39",
+   "matches": [
+    "n_classes"
+   ],
+   "context": "--pooling mean --dataset imagine_decode --sub \"01\" --cls 39 --dropout1 0.5"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 9,
+   "number": "0.5",
+   "matches": [
+    "split.interleaved.perm.val_selected.sd",
+    "split.random_trial.perm.val_selected.sd",
+    "split.run_holdout.real.val_selected.sd",
+    "split.session_holdout.real.final.sd"
+   ],
+   "context": "--pooling mean --dataset imagine_decode --sub \"01\" --cls 39 --dropout1 0.5"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 10,
+   "number": "0.5",
+   "matches": [
+    "split.interleaved.perm.val_selected.sd",
+    "split.random_trial.perm.val_selected.sd",
+    "split.run_holdout.real.val_selected.sd",
+    "split.session_holdout.real.final.sd"
+   ],
+   "context": "--dropout2 0.5 --feel1 20 --feel2 10 --subset_ratio 1"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 10,
+   "number": "20",
+   "matches": [
+    "lb.interleaved.interleaved.index_1nn_next",
+    "lb.interleaved.interleaved.index_knn_3",
+    "lb.interleaved.mean.index_1nn_next",
+    "lb.interleaved.min.index_1nn_next"
+   ],
+   "context": "--dropout2 0.5 --feel1 20 --feel2 10 --subset_ratio 1"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 10,
+   "number": "10",
+   "matches": [
+    "lb.session_holdout.ses2.ci1",
+    "repro.upstream_max.seed2",
+    "upstream.printed_result",
+    "pa.real.acc_nb_same.min"
+   ],
+   "context": "--dropout2 0.5 --feel1 20 --feel2 10 --subset_ratio 1"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 10,
+   "number": "1",
+   "matches": [
+    "lb.run_holdout.run_fold0.ci0",
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.ses2.index_1nn_next"
+   ],
+   "context": "--dropout2 0.5 --feel1 20 --feel2 10 --subset_ratio 1"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 13,
+   "number": "16",
+   "matches": [
+    "lb.interleaved.interleaved.ci0",
+    "lb.random_trial.random_trial.ci0"
+   ],
+   "context": "Unlisted arguments take the script's defaults: batch 16, weight decay 0.01, warm-up ratio 0.1,"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 13,
+   "number": "0.01",
+   "matches": [],
+   "context": "Unlisted arguments take the script's defaults: batch 16, weight decay 0.01, warm-up ratio 0.1,"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 13,
+   "number": "0.1",
+   "matches": [
+    "lb.session_holdout.ses4.ci0",
+    "lag1.within_minus",
+    "lag2.within_minus",
+    "lag5.within_minus"
+   ],
+   "context": "Unlisted arguments take the script's defaults: batch 16, weight decay 0.01, warm-up ratio 0.1,"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 14,
+   "number": "100",
+   "matches": [],
+   "context": "\\texttt{--tau 0} (no logit adjustment), evaluation every 100 steps, seed 42."
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 14,
+   "number": "42",
+   "matches": [],
+   "context": "\\texttt{--tau 0} (no logit adjustment), evaluation every 100 steps, seed 42."
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 17,
+   "number": "74",
+   "matches": [],
+   "context": "Line 74 assigns trial \\texttt{index} to the evaluation set when \\texttt{index \\% 5 == 1};"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 18,
+   "number": "173",
+   "matches": [],
+   "context": "lines 173--174 build only a training and an evaluation set; line 219 initialises \\texttt{max\\_accuracy} and line 263 updates it as"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 18,
+   "number": "-174",
+   "matches": [],
+   "context": "lines 173--174 build only a training and an evaluation set; line 219 initialises \\texttt{max\\_accuracy} and line 263 updates it as"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 18,
+   "number": "219",
+   "matches": [],
+   "context": "lines 173--174 build only a training and an evaluation set; line 219 initialises \\texttt{max\\_accuracy} and line 263 updates it as"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 18,
+   "number": "263",
+   "matches": [],
+   "context": "lines 173--174 build only a training and an evaluation set; line 219 initialises \\texttt{max\\_accuracy} and line 263 updates it as"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 19,
+   "number": "271",
+   "matches": [],
+   "context": "\\texttt{max(max\\_accuracy, valid\\_accu)} at every evaluation; line 271 prints it as the result. The \\texttt{--rand\\_guess 1} option shuffles"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 23,
+   "number": "42",
+   "matches": [],
+   "context": "\\texttt{EEGclassify.py} itself with the command above (seed 42) on the same hardware, with two"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 28,
+   "number": "1",
+   "matches": [
+    "lb.run_holdout.run_fold0.ci0",
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.ses2.index_1nn_next"
+   ],
+   "context": "fallback setting (\\path{PYTORCH_ENABLE_MPS_FALLBACK=1}). The mask is all ones, so this does not"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 34,
+   "number": "500",
+   "matches": [
+    "sfreq"
+   ],
+   "context": "\\caption{\\textbf{Re-implementation vs.\\ released script}, same configuration (500\\,Hz, 100 epochs,"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 34,
+   "number": "100",
+   "matches": [],
+   "context": "\\caption{\\textbf{Re-implementation vs.\\ released script}, same configuration (500\\,Hz, 100 epochs,"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 35,
+   "number": "100",
+   "matches": [],
+   "context": "released split). Left: training loss (ours: mean over each 100-step evaluation interval; released"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 36,
+   "number": "10",
+   "matches": [
+    "lb.session_holdout.ses2.ci1",
+    "repro.upstream_max.seed2",
+    "upstream.printed_result",
+    "pa.real.acc_nb_same.min"
+   ],
+   "context": "script: mean of its printed 10-step losses per epoch). Right: evaluation-set accuracy at every"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 37,
+   "number": "0",
+   "matches": [
+    "lb.session_holdout.ses1.index_1nn_prev",
+    "lb.session_holdout.ses1.index_1nn_next",
+    "lb.session_holdout.ses1.index_knn_3",
+    "lb.session_holdout.ses1.index_knn_5"
+   ],
+   "context": "evaluation. Ours: seeds 0--2, trained on 4{,}495 trials; released script: seed 42, trained on"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 37,
+   "number": "-2",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_1nn_prev",
+    "lb.run_holdout.run_fold1.ci0",
+    "lb.run_holdout.run_fold2.ci0",
+    "lb.run_holdout.run_fold3.ci0"
+   ],
+   "context": "evaluation. Ours: seeds 0--2, trained on 4{,}495 trials; released script: seed 42, trained on"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 37,
+   "number": "4495",
+   "matches": [
+    "n_train_ours"
+   ],
+   "context": "evaluation. Ours: seeds 0--2, trained on 4{,}495 trials; released script: seed 42, trained on"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 37,
+   "number": "42",
+   "matches": [],
+   "context": "evaluation. Ours: seeds 0--2, trained on 4{,}495 trials; released script: seed 42, trained on"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 38,
+   "number": "4994",
+   "matches": [
+    "n_train_upstream"
+   ],
+   "context": "4{,}994. Source: \\texttt{results/upstream\\_seed42.json} and the 500\\,Hz result files.}"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 38,
+   "number": "500",
+   "matches": [
+    "sfreq"
+   ],
+   "context": "4{,}994. Source: \\texttt{results/upstream\\_seed42.json} and the 500\\,Hz result files.}"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 48,
+   "number": "0.24",
+   "matches": [
+    "repro.val_selected.sd",
+    "split.interleaved.real.upstream_max.sd"
+   ],
+   "context": "\\begin{tabular}{p{0.24\\linewidth}p{0.33\\linewidth}p{0.33\\linewidth}}"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 48,
+   "number": "0.33",
+   "matches": [
+    "read.interleaved.real.upstream_max.sd"
+   ],
+   "context": "\\begin{tabular}{p{0.24\\linewidth}p{0.33\\linewidth}p{0.33\\linewidth}}"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 48,
+   "number": "0.33",
+   "matches": [
+    "read.interleaved.real.upstream_max.sd"
+   ],
+   "context": "\\begin{tabular}{p{0.24\\linewidth}p{0.33\\linewidth}p{0.33\\linewidth}}"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 52,
+   "number": "500",
+   "matches": [
+    "sfreq"
+   ],
+   "context": "Sampling rate & 500\\,Hz (1{,}651 samples) & 250\\,Hz (825 samples, pairwise mean) \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 52,
+   "number": "1651",
+   "matches": [
+    "n_samples"
+   ],
+   "context": "Sampling rate & 500\\,Hz (1{,}651 samples) & 250\\,Hz (825 samples, pairwise mean) \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 52,
+   "number": "250",
+   "matches": [],
+   "context": "Sampling rate & 500\\,Hz (1{,}651 samples) & 250\\,Hz (825 samples, pairwise mean) \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 52,
+   "number": "825",
+   "matches": [],
+   "context": "Sampling rate & 500\\,Hz (1{,}651 samples) & 250\\,Hz (825 samples, pairwise mean) \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 53,
+   "number": "122",
+   "matches": [
+    "n_eeg_ch"
+   ],
+   "context": "Channels & 122 EEG & 122 EEG \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 53,
+   "number": "122",
+   "matches": [
+    "n_eeg_ch"
+   ],
+   "context": "Channels & 122 EEG & 122 EEG \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 54,
+   "number": "100",
+   "matches": [],
+   "context": "Epochs & 100 & 30 \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 54,
+   "number": "30",
+   "matches": [
+    "cats_per_run_median"
+   ],
+   "context": "Epochs & 100 & 30 \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 55,
+   "number": "5",
+   "matches": [
+    "lb.interleaved.interleaved.majority",
+    "lb.interleaved.mean.majority",
+    "lb.interleaved.min.majority",
+    "lb.interleaved.max.majority"
+   ],
+   "context": "Optimiser & AdamW, lr $5\\times10^{-4}$, wd 0.01 & same \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 55,
+   "number": "10",
+   "matches": [
+    "lb.session_holdout.ses2.ci1",
+    "repro.upstream_max.seed2",
+    "upstream.printed_result",
+    "pa.real.acc_nb_same.min"
+   ],
+   "context": "Optimiser & AdamW, lr $5\\times10^{-4}$, wd 0.01 & same \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 55,
+   "number": "-4",
+   "matches": [
+    "lb.interleaved.interleaved.position_majority",
+    "lb.interleaved.mean.position_majority",
+    "lb.interleaved.min.position_majority",
+    "lb.interleaved.max.position_majority"
+   ],
+   "context": "Optimiser & AdamW, lr $5\\times10^{-4}$, wd 0.01 & same \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 55,
+   "number": "0.01",
+   "matches": [],
+   "context": "Optimiser & AdamW, lr $5\\times10^{-4}$, wd 0.01 & same \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 56,
+   "number": "16",
+   "matches": [
+    "lb.interleaved.interleaved.ci0",
+    "lb.random_trial.random_trial.ci0"
+   ],
+   "context": "Batch size & 16 & 16 \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 56,
+   "number": "16",
+   "matches": [
+    "lb.interleaved.interleaved.ci0",
+    "lb.random_trial.random_trial.ci0"
+   ],
+   "context": "Batch size & 16 & 16 \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 57,
+   "number": "10",
+   "matches": [
+    "lb.session_holdout.ses2.ci1",
+    "repro.upstream_max.seed2",
+    "upstream.printed_result",
+    "pa.real.acc_nb_same.min"
+   ],
+   "context": "Schedule & linear warm-up 10\\%, then linear decay & same \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 58,
+   "number": "100",
+   "matches": [],
+   "context": "Evaluation interval & every 100 steps (281 evaluations) & every 100 steps \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 58,
+   "number": "281",
+   "matches": [
+    "evals_ours"
+   ],
+   "context": "Evaluation interval & every 100 steps (281 evaluations) & every 100 steps \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 58,
+   "number": "100",
+   "matches": [],
+   "context": "Evaluation interval & every 100 steps (281 evaluations) & every 100 steps \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 59,
+   "number": "8",
+   "matches": [
+    "lb.run_holdout.run_fold3.index_1nn_next",
+    "lb.run_holdout.max.index_1nn_next",
+    "lb.session_holdout.ses4.index_1nn_next",
+    "lb.session_holdout.max.index_1nn_next"
+   ],
+   "context": "Front end & EEGNet, $F_1{=}8$, $D{=}8$, temporal kernels 20 and 10 & same \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 59,
+   "number": "8",
+   "matches": [
+    "lb.run_holdout.run_fold3.index_1nn_next",
+    "lb.run_holdout.max.index_1nn_next",
+    "lb.session_holdout.ses4.index_1nn_next",
+    "lb.session_holdout.max.index_1nn_next"
+   ],
+   "context": "Front end & EEGNet, $F_1{=}8$, $D{=}8$, temporal kernels 20 and 10 & same \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 59,
+   "number": "20",
+   "matches": [
+    "lb.interleaved.interleaved.index_1nn_next",
+    "lb.interleaved.interleaved.index_knn_3",
+    "lb.interleaved.mean.index_1nn_next",
+    "lb.interleaved.min.index_1nn_next"
+   ],
+   "context": "Front end & EEGNet, $F_1{=}8$, $D{=}8$, temporal kernels 20 and 10 & same \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 59,
+   "number": "10",
+   "matches": [
+    "lb.session_holdout.ses2.ci1",
+    "repro.upstream_max.seed2",
+    "upstream.printed_result",
+    "pa.real.acc_nb_same.min"
+   ],
+   "context": "Front end & EEGNet, $F_1{=}8$, $D{=}8$, temporal kernels 20 and 10 & same \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 60,
+   "number": "1",
+   "matches": [
+    "lb.run_holdout.run_fold0.ci0",
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.ses2.index_1nn_next"
+   ],
+   "context": "Encoder & 1 Transformer layer, $d{=}64$, 8 heads, mean pooling & same \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 60,
+   "number": "64",
+   "matches": [],
+   "context": "Encoder & 1 Transformer layer, $d{=}64$, 8 heads, mean pooling & same \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 60,
+   "number": "8",
+   "matches": [
+    "lb.run_holdout.run_fold3.index_1nn_next",
+    "lb.run_holdout.max.index_1nn_next",
+    "lb.session_holdout.ses4.index_1nn_next",
+    "lb.session_holdout.max.index_1nn_next"
+   ],
+   "context": "Encoder & 1 Transformer layer, $d{=}64$, 8 heads, mean pooling & same \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 61,
+   "number": "0.5",
+   "matches": [
+    "split.interleaved.perm.val_selected.sd",
+    "split.random_trial.perm.val_selected.sd",
+    "split.run_holdout.real.val_selected.sd",
+    "split.session_holdout.real.final.sd"
+   ],
+   "context": "Dropout & 0.5 (front end), 0.5 (encoder) & same \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 61,
+   "number": "0.5",
+   "matches": [
+    "split.interleaved.perm.val_selected.sd",
+    "split.random_trial.perm.val_selected.sd",
+    "split.run_holdout.real.val_selected.sd",
+    "split.session_holdout.real.final.sd"
+   ],
+   "context": "Dropout & 0.5 (front end), 0.5 (encoder) & same \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 62,
+   "number": "0",
+   "matches": [
+    "lb.session_holdout.ses1.index_1nn_prev",
+    "lb.session_holdout.ses1.index_1nn_next",
+    "lb.session_holdout.ses1.index_knn_3",
+    "lb.session_holdout.ses1.index_knn_5"
+   ],
+   "context": "Seeds & 0, 1, 2 & 0, 1, 2 \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 62,
+   "number": "1",
+   "matches": [
+    "lb.run_holdout.run_fold0.ci0",
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.ses2.index_1nn_next"
+   ],
+   "context": "Seeds & 0, 1, 2 & 0, 1, 2 \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 62,
+   "number": "2",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_1nn_prev",
+    "lb.run_holdout.run_fold1.ci0",
+    "lb.run_holdout.run_fold2.ci0",
+    "lb.run_holdout.run_fold3.ci0"
+   ],
+   "context": "Seeds & 0, 1, 2 & 0, 1, 2 \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 62,
+   "number": "0",
+   "matches": [
+    "lb.session_holdout.ses1.index_1nn_prev",
+    "lb.session_holdout.ses1.index_1nn_next",
+    "lb.session_holdout.ses1.index_knn_3",
+    "lb.session_holdout.ses1.index_knn_5"
+   ],
+   "context": "Seeds & 0, 1, 2 & 0, 1, 2 \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 62,
+   "number": "1",
+   "matches": [
+    "lb.run_holdout.run_fold0.ci0",
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.ses2.index_1nn_next"
+   ],
+   "context": "Seeds & 0, 1, 2 & 0, 1, 2 \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 62,
+   "number": "2",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_1nn_prev",
+    "lb.run_holdout.run_fold1.ci0",
+    "lb.run_holdout.run_fold2.ci0",
+    "lb.run_holdout.run_fold3.ci0"
+   ],
+   "context": "Seeds & 0, 1, 2 & 0, 1, 2 \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 63,
+   "number": "1",
+   "matches": [
+    "lb.run_holdout.run_fold0.ci0",
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.ses2.index_1nn_next"
+   ],
+   "context": "Folds per seed & 1 & interleaved, random: 1; run, session: 3 \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 63,
+   "number": "1",
+   "matches": [
+    "lb.run_holdout.run_fold0.ci0",
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.ses2.index_1nn_next"
+   ],
+   "context": "Folds per seed & 1 & interleaved, random: 1; run, session: 3 \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 63,
+   "number": "3",
+   "matches": [
+    "lb.interleaved.interleaved.prior_sample",
+    "lb.interleaved.mean.prior_sample",
+    "lb.interleaved.min.prior_sample",
+    "lb.interleaved.max.prior_sample"
+   ],
+   "context": "Folds per seed & 1 & interleaved, random: 1; run, session: 3 \\\\"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 70,
+   "number": "2.14",
+   "matches": [],
+   "context": "All EEG models were trained on one Apple-silicon laptop (PyTorch 2.14.1, MPS backend, float32),"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 71,
+   "number": "100",
+   "matches": [],
+   "context": "three to four runs sharing the GPU. A 100-epoch run at 500\\,Hz took about two hours of training time"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 71,
+   "number": "500",
+   "matches": [
+    "sfreq"
+   ],
+   "context": "three to four runs sharing the GPU. A 100-epoch run at 500\\,Hz took about two hours of training time"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 72,
+   "number": "39",
+   "matches": [
+    "n_classes"
+   ],
+   "context": "under that sharing; the full grid of 39 configurations took about 12 hours, and the released script's"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 72,
+   "number": "12",
+   "matches": [
+    "pa.real.acc_nb_same.mean"
+   ],
+   "context": "under that sharing; the full grid of 39 configurations took about 12 hours, and the released script's"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 73,
+   "number": "100",
+   "matches": [],
+   "context": "100-epoch run about three hours of training time. The no-EEG classifiers and the drift probe run on CPU in seconds to minutes."
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 79,
+   "number": "6243",
+   "matches": [
+    "n_released"
+   ],
+   "context": "\\item S1 released imagined-speech epochs: 6{,}243 trials in 45 runs (28--185 per run); every"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 79,
+   "number": "45",
+   "matches": [
+    "n_runs"
+   ],
+   "context": "\\item S1 released imagined-speech epochs: 6{,}243 trials in 45 runs (28--185 per run); every"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 79,
+   "number": "28",
+   "matches": [],
+   "context": "\\item S1 released imagined-speech epochs: 6{,}243 trials in 45 runs (28--185 per run); every"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 79,
+   "number": "-185",
+   "matches": [],
+   "context": "\\item S1 released imagined-speech epochs: 6{,}243 trials in 45 runs (28--185 per run); every"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 80,
+   "number": "39",
+   "matches": [
+    "n_classes"
+   ],
+   "context": "sentence maps to a category; 39 categories present."
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 82,
+   "number": "438",
+   "matches": [
+    "n_removed"
+   ],
+   "context": "(\\path{textdataset/split_data_N.xlsx}); 438 of 6{,}681 presented trials are absent."
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 82,
+   "number": "6681",
+   "matches": [
+    "n_presented"
+   ],
+   "context": "(\\path{textdataset/split_data_N.xlsx}); 438 of 6{,}681 presented trials are absent."
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 83,
+   "number": "45",
+   "matches": [
+    "n_runs"
+   ],
+   "context": "\\item The BIDS release assigns S1's 45 runs to five sessions of 7, 8, 10, 10 and 10 runs. The paper"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 83,
+   "number": "7",
+   "matches": [
+    "lb.run_holdout.run_fold1.ci1",
+    "lb.run_holdout.run_fold2.index_1nn_next",
+    "lb.run_holdout.run_fold2.index_knn_3",
+    "lb.run_holdout.run_fold3.index_knn_3"
+   ],
+   "context": "\\item The BIDS release assigns S1's 45 runs to five sessions of 7, 8, 10, 10 and 10 runs. The paper"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 83,
+   "number": "8",
+   "matches": [
+    "lb.run_holdout.run_fold3.index_1nn_next",
+    "lb.run_holdout.max.index_1nn_next",
+    "lb.session_holdout.ses4.index_1nn_next",
+    "lb.session_holdout.max.index_1nn_next"
+   ],
+   "context": "\\item The BIDS release assigns S1's 45 runs to five sessions of 7, 8, 10, 10 and 10 runs. The paper"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 83,
+   "number": "10",
+   "matches": [
+    "lb.session_holdout.ses2.ci1",
+    "repro.upstream_max.seed2",
+    "upstream.printed_result",
+    "pa.real.acc_nb_same.min"
+   ],
+   "context": "\\item The BIDS release assigns S1's 45 runs to five sessions of 7, 8, 10, 10 and 10 runs. The paper"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 83,
+   "number": "10",
+   "matches": [
+    "lb.session_holdout.ses2.ci1",
+    "repro.upstream_max.seed2",
+    "upstream.printed_result",
+    "pa.real.acc_nb_same.min"
+   ],
+   "context": "\\item The BIDS release assigns S1's 45 runs to five sessions of 7, 8, 10, 10 and 10 runs. The paper"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 83,
+   "number": "10",
+   "matches": [
+    "lb.session_holdout.ses2.ci1",
+    "repro.upstream_max.seed2",
+    "upstream.printed_result",
+    "pa.real.acc_nb_same.min"
+   ],
+   "context": "\\item The BIDS release assigns S1's 45 runs to five sessions of 7, 8, 10, 10 and 10 runs. The paper"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 86,
+   "number": "0.39",
+   "matches": [
+    "tv_ses1"
+   ],
+   "context": "session's category distribution and the other four's is 0.39 for session 1 and 0.16--0.23 for the"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 86,
+   "number": "1",
+   "matches": [
+    "lb.run_holdout.run_fold0.ci0",
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.ses2.index_1nn_next"
+   ],
+   "context": "session's category distribution and the other four's is 0.39 for session 1 and 0.16--0.23 for the"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 86,
+   "number": "0.16",
+   "matches": [
+    "read.interleaved.real.final.sd",
+    "tv_min"
+   ],
+   "context": "session's category distribution and the other four's is 0.39 for session 1 and 0.16--0.23 for the"
+  },
+  {
+   "file": "paper/appendix.tex",
+   "line": 86,
+   "number": "-0.23",
+   "matches": [
+    "tv_max"
+   ],
+   "context": "session's category distribution and the other four's is 0.39 for session 1 and 0.16--0.23 for the"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 5,
+   "number": "8.75",
+   "matches": [
+    "repro.upstream_max.mean"
+   ],
+   "context": "Max over checkpoints (published rule) & 8.75 $\\pm$ 0.67 & 6.38 $\\pm$ 0.30 & 2.38 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 5,
+   "number": "0.67",
+   "matches": [
+    "repro.upstream_max.sd"
+   ],
+   "context": "Max over checkpoints (published rule) & 8.75 $\\pm$ 0.67 & 6.38 $\\pm$ 0.30 & 2.38 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 5,
+   "number": "6.38",
+   "matches": [
+    "repro_null.upstream_max.mean"
+   ],
+   "context": "Max over checkpoints (published rule) & 8.75 $\\pm$ 0.67 & 6.38 $\\pm$ 0.30 & 2.38 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 5,
+   "number": "0.30",
+   "matches": [
+    "repro_null.upstream_max.sd"
+   ],
+   "context": "Max over checkpoints (published rule) & 8.75 $\\pm$ 0.67 & 6.38 $\\pm$ 0.30 & 2.38 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 5,
+   "number": "2.38",
+   "matches": [
+    "repro.diff.upstream_max",
+    "split.random_trial.diff.final",
+    "split.session_holdout.perm.val_selected.seed2"
+   ],
+   "context": "Max over checkpoints (published rule) & 8.75 $\\pm$ 0.67 & 6.38 $\\pm$ 0.30 & 2.38 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 6,
+   "number": "7.13",
+   "matches": [
+    "repro.val_selected.mean",
+    "repro.val_selected.seed0"
+   ],
+   "context": "Validation-selected checkpoint & 7.13 $\\pm$ 0.24 & 5.02 $\\pm$ 0.76 & 2.11 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 6,
+   "number": "0.24",
+   "matches": [
+    "repro.val_selected.sd",
+    "split.interleaved.real.upstream_max.sd"
+   ],
+   "context": "Validation-selected checkpoint & 7.13 $\\pm$ 0.24 & 5.02 $\\pm$ 0.76 & 2.11 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 6,
+   "number": "5.02",
+   "matches": [
+    "repro_null.val_selected.mean",
+    "ckpt.perm.post_warmup_mean"
+   ],
+   "context": "Validation-selected checkpoint & 7.13 $\\pm$ 0.24 & 5.02 $\\pm$ 0.76 & 2.11 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 6,
+   "number": "0.76",
+   "matches": [
+    "repro_null.val_selected.sd",
+    "split.run_holdout.perm.upstream_max.sd"
+   ],
+   "context": "Validation-selected checkpoint & 7.13 $\\pm$ 0.24 & 5.02 $\\pm$ 0.76 & 2.11 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 6,
+   "number": "2.11",
+   "matches": [
+    "lb.run_holdout.run_fold3.ci0",
+    "repro.diff.val_selected",
+    "split.interleaved.diff.upstream_max",
+    "split.interleaved.diff.val_selected"
+   ],
+   "context": "Validation-selected checkpoint & 7.13 $\\pm$ 0.24 & 5.02 $\\pm$ 0.76 & 2.11 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 7,
+   "number": "7.39",
+   "matches": [
+    "repro.final.mean"
+   ],
+   "context": "Last checkpoint & 7.39 $\\pm$ 0.73 & 4.80 $\\pm$ 0.70 & 2.59 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 7,
+   "number": "0.73",
+   "matches": [
+    "repro.final.sd"
+   ],
+   "context": "Last checkpoint & 7.39 $\\pm$ 0.73 & 4.80 $\\pm$ 0.70 & 2.59 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 7,
+   "number": "4.80",
+   "matches": [
+    "repro_null.final.mean",
+    "split.random_trial.perm.upstream_max.seed0"
+   ],
+   "context": "Last checkpoint & 7.39 $\\pm$ 0.73 & 4.80 $\\pm$ 0.70 & 2.59 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 7,
+   "number": "0.70",
+   "matches": [
+    "repro_null.final.sd"
+   ],
+   "context": "Last checkpoint & 7.39 $\\pm$ 0.73 & 4.80 $\\pm$ 0.70 & 2.59 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 7,
+   "number": "2.59",
+   "matches": [
+    "repro.diff.final"
+   ],
+   "context": "Last checkpoint & 7.39 $\\pm$ 0.73 & 4.80 $\\pm$ 0.70 & 2.59 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 9,
+   "number": "42",
+   "matches": [],
+   "context": "Released script, seed 42, max over checkpoints & 9.69 & -- & -- \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 9,
+   "number": "9.69",
+   "matches": [
+    "upstream.printed_result"
+   ],
+   "context": "Released script, seed 42, max over checkpoints & 9.69 & -- & -- \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 10,
+   "number": "42",
+   "matches": [],
+   "context": "Released script, seed 42, last checkpoint & 7.77 & -- & -- \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 10,
+   "number": "7.77",
+   "matches": [
+    "upstream.final"
+   ],
+   "context": "Released script, seed 42, last checkpoint & 7.77 & -- & -- \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 11,
+   "number": "13.88",
+   "matches": [
+    "published.S1"
+   ],
+   "context": "Published \\citep[Table 3, S1]{zhang2024chisco} & 13.88 & 5.52 & 8.36 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 11,
+   "number": "5.52",
+   "matches": [
+    "lb.run_holdout.run_fold4.index_knn_5",
+    "split.interleaved.perm.val_selected.seed1",
+    "split.random_trial.perm.upstream_max.seed2",
+    "published.S1.random"
+   ],
+   "context": "Published \\citep[Table 3, S1]{zhang2024chisco} & 13.88 & 5.52 & 8.36 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 11,
+   "number": "8.36",
+   "matches": [
+    "published.margin"
+   ],
+   "context": "Published \\citep[Table 3, S1]{zhang2024chisco} & 13.88 & 5.52 & 8.36 \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 13,
+   "number": "18.82",
+   "matches": [
+    "lb.interleaved.interleaved.index_1nn_prev",
+    "lb.interleaved.mean.index_1nn_prev",
+    "lb.interleaved.min.index_1nn_prev",
+    "lb.interleaved.max.index_1nn_prev"
+   ],
+   "context": "No EEG: label of previous training trial & \\multicolumn{3}{l}{18.82 (95\\% CI 16.49--21.57)} \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 13,
+   "number": "95",
+   "matches": [],
+   "context": "No EEG: label of previous training trial & \\multicolumn{3}{l}{18.82 (95\\% CI 16.49--21.57)} \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 13,
+   "number": "16.49",
+   "matches": [
+    "lb.interleaved.interleaved.ci0"
+   ],
+   "context": "No EEG: label of previous training trial & \\multicolumn{3}{l}{18.82 (95\\% CI 16.49--21.57)} \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 13,
+   "number": "-21.57",
+   "matches": [
+    "lb.interleaved.interleaved.ci1"
+   ],
+   "context": "No EEG: label of previous training trial & \\multicolumn{3}{l}{18.82 (95\\% CI 16.49--21.57)} \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 14,
+   "number": "4.72",
+   "matches": [
+    "lb.interleaved.interleaved.majority",
+    "lb.interleaved.mean.majority",
+    "lb.interleaved.min.majority",
+    "lb.interleaved.max.majority"
+   ],
+   "context": "No EEG: majority class & \\multicolumn{3}{l}{4.72} \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 15,
+   "number": "1",
+   "matches": [
+    "lb.run_holdout.run_fold0.ci0",
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.ses2.index_1nn_next"
+   ],
+   "context": "Uniform chance ($1/39$) & \\multicolumn{3}{l}{2.56} \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 15,
+   "number": "39",
+   "matches": [
+    "n_classes"
+   ],
+   "context": "Uniform chance ($1/39$) & \\multicolumn{3}{l}{2.56} \\\\"
+  },
+  {
+   "file": "paper/tables/t1_repro.tex",
+   "line": 15,
+   "number": "2.56",
+   "matches": [
+    "chance"
+   ],
+   "context": "Uniform chance ($1/39$) & \\multicolumn{3}{l}{2.56} \\\\"
+  },
+  {
+   "file": "paper/tables/t1_wrap.tex",
+   "line": 5,
+   "number": "1249",
+   "matches": [
+    "n_eval"
+   ],
+   "context": "(1{,}249 trials) for the published configuration (500\\,Hz, 100 epochs), mean $\\pm$ SD over three"
+  },
+  {
+   "file": "paper/tables/t1_wrap.tex",
+   "line": 5,
+   "number": "500",
+   "matches": [
+    "sfreq"
+   ],
+   "context": "(1{,}249 trials) for the published configuration (500\\,Hz, 100 epochs), mean $\\pm$ SD over three"
+  },
+  {
+   "file": "paper/tables/t1_wrap.tex",
+   "line": 5,
+   "number": "100",
+   "matches": [],
+   "context": "(1{,}249 trials) for the published configuration (500\\,Hz, 100 epochs), mean $\\pm$ SD over three"
+  },
+  {
+   "file": "paper/tables/t1_wrap.tex",
+   "line": 7,
+   "number": "95",
+   "matches": [],
+   "context": "evaluation labels intact. The 95\\% CI for the no-EEG classifier is a run-clustered bootstrap."
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 1,
+   "number": "4",
+   "matches": [
+    "lb.interleaved.interleaved.position_majority",
+    "lb.interleaved.mean.position_majority",
+    "lb.interleaved.min.position_majority",
+    "lb.interleaved.max.position_majority"
+   ],
+   "context": "\\setlength{\\tabcolsep}{4pt}"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 5,
+   "number": "2",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_1nn_prev",
+    "lb.run_holdout.run_fold1.ci0",
+    "lb.run_holdout.run_fold2.ci0",
+    "lb.run_holdout.run_fold3.ci0"
+   ],
+   "context": "\\cmidrule(lr){2-4}\\cmidrule(lr){5-6}"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 5,
+   "number": "4",
+   "matches": [
+    "lb.interleaved.interleaved.position_majority",
+    "lb.interleaved.mean.position_majority",
+    "lb.interleaved.min.position_majority",
+    "lb.interleaved.max.position_majority"
+   ],
+   "context": "\\cmidrule(lr){2-4}\\cmidrule(lr){5-6}"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 5,
+   "number": "5",
+   "matches": [
+    "lb.interleaved.interleaved.majority",
+    "lb.interleaved.mean.majority",
+    "lb.interleaved.min.majority",
+    "lb.interleaved.max.majority"
+   ],
+   "context": "\\cmidrule(lr){2-4}\\cmidrule(lr){5-6}"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 5,
+   "number": "6",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_1nn_next",
+    "lb.run_holdout.run_fold1.index_knn_5",
+    "lb.run_holdout.run_fold2.index_1nn_prev",
+    "lb.run_holdout.run_fold2.index_knn_11"
+   ],
+   "context": "\\cmidrule(lr){2-4}\\cmidrule(lr){5-6}"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 9,
+   "number": "7.58",
+   "matches": [
+    "split.interleaved.real.val_selected.mean"
+   ],
+   "context": "Interleaved (released) & 7.58 $\\pm$ 1.04 & 5.47 $\\pm$ 0.48 & 2.11 & 18.82 & 4.72 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 9,
+   "number": "1.04",
+   "matches": [
+    "split.interleaved.real.val_selected.sd"
+   ],
+   "context": "Interleaved (released) & 7.58 $\\pm$ 1.04 & 5.47 $\\pm$ 0.48 & 2.11 & 18.82 & 4.72 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 9,
+   "number": "5.47",
+   "matches": [
+    "lb.run_holdout.mean.index_1nn_next",
+    "split.interleaved.perm.val_selected.mean"
+   ],
+   "context": "Interleaved (released) & 7.58 $\\pm$ 1.04 & 5.47 $\\pm$ 0.48 & 2.11 & 18.82 & 4.72 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 9,
+   "number": "0.48",
+   "matches": [
+    "split.interleaved.perm.val_selected.sd"
+   ],
+   "context": "Interleaved (released) & 7.58 $\\pm$ 1.04 & 5.47 $\\pm$ 0.48 & 2.11 & 18.82 & 4.72 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 9,
+   "number": "2.11",
+   "matches": [
+    "lb.run_holdout.run_fold3.ci0",
+    "repro.diff.val_selected",
+    "split.interleaved.diff.upstream_max",
+    "split.interleaved.diff.val_selected"
+   ],
+   "context": "Interleaved (released) & 7.58 $\\pm$ 1.04 & 5.47 $\\pm$ 0.48 & 2.11 & 18.82 & 4.72 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 9,
+   "number": "18.82",
+   "matches": [
+    "lb.interleaved.interleaved.index_1nn_prev",
+    "lb.interleaved.mean.index_1nn_prev",
+    "lb.interleaved.min.index_1nn_prev",
+    "lb.interleaved.max.index_1nn_prev"
+   ],
+   "context": "Interleaved (released) & 7.58 $\\pm$ 1.04 & 5.47 $\\pm$ 0.48 & 2.11 & 18.82 & 4.72 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 9,
+   "number": "4.72",
+   "matches": [
+    "lb.interleaved.interleaved.majority",
+    "lb.interleaved.mean.majority",
+    "lb.interleaved.min.majority",
+    "lb.interleaved.max.majority"
+   ],
+   "context": "Interleaved (released) & 7.58 $\\pm$ 1.04 & 5.47 $\\pm$ 0.48 & 2.11 & 18.82 & 4.72 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 10,
+   "number": "5.79",
+   "matches": [
+    "split.random_trial.real.val_selected.mean"
+   ],
+   "context": "Random trial & 5.79 $\\pm$ 1.24 & 4.78 $\\pm$ 0.53 & 1.01 & 18.25 & 4.70 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 10,
+   "number": "1.24",
+   "matches": [
+    "split.random_trial.real.val_selected.sd"
+   ],
+   "context": "Random trial & 5.79 $\\pm$ 1.24 & 4.78 $\\pm$ 0.53 & 1.01 & 18.25 & 4.70 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 10,
+   "number": "4.78",
+   "matches": [
+    "split.random_trial.perm.val_selected.mean"
+   ],
+   "context": "Random trial & 5.79 $\\pm$ 1.24 & 4.78 $\\pm$ 0.53 & 1.01 & 18.25 & 4.70 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 10,
+   "number": "0.53",
+   "matches": [
+    "split.random_trial.perm.val_selected.sd",
+    "split.session_holdout.real.final.sd",
+    "read.interleaved.real.val_selected.sd"
+   ],
+   "context": "Random trial & 5.79 $\\pm$ 1.24 & 4.78 $\\pm$ 0.53 & 1.01 & 18.25 & 4.70 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 10,
+   "number": "1.01",
+   "matches": [
+    "split.random_trial.diff.val_selected"
+   ],
+   "context": "Random trial & 5.79 $\\pm$ 1.24 & 4.78 $\\pm$ 0.53 & 1.01 & 18.25 & 4.70 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 10,
+   "number": "18.25",
+   "matches": [
+    "split.random_trial.no_eeg_prev"
+   ],
+   "context": "Random trial & 5.79 $\\pm$ 1.24 & 4.78 $\\pm$ 0.53 & 1.01 & 18.25 & 4.70 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 10,
+   "number": "4.70",
+   "matches": [
+    "split.random_trial.no_eeg_majority"
+   ],
+   "context": "Random trial & 5.79 $\\pm$ 1.24 & 4.78 $\\pm$ 0.53 & 1.01 & 18.25 & 4.70 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 11,
+   "number": "4.37",
+   "matches": [
+    "split.run_holdout.real.val_selected.mean",
+    "split.run_holdout.real.final.seed0"
+   ],
+   "context": "Run holdout & 4.37 $\\pm$ 0.49 & 3.73 $\\pm$ 0.60 & 0.64 & 4.02 & 3.36 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 11,
+   "number": "0.49",
+   "matches": [
+    "split.run_holdout.real.val_selected.sd"
+   ],
+   "context": "Run holdout & 4.37 $\\pm$ 0.49 & 3.73 $\\pm$ 0.60 & 0.64 & 4.02 & 3.36 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 11,
+   "number": "3.73",
+   "matches": [
+    "split.run_holdout.perm.val_selected.mean"
+   ],
+   "context": "Run holdout & 4.37 $\\pm$ 0.49 & 3.73 $\\pm$ 0.60 & 0.64 & 4.02 & 3.36 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 11,
+   "number": "0.60",
+   "matches": [
+    "split.run_holdout.perm.val_selected.sd"
+   ],
+   "context": "Run holdout & 4.37 $\\pm$ 0.49 & 3.73 $\\pm$ 0.60 & 0.64 & 4.02 & 3.36 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 11,
+   "number": "0.64",
+   "matches": [
+    "split.run_holdout.real.final.sd",
+    "split.run_holdout.diff.val_selected",
+    "paired.imagine.run_holdout.mean"
+   ],
+   "context": "Run holdout & 4.37 $\\pm$ 0.49 & 3.73 $\\pm$ 0.60 & 0.64 & 4.02 & 3.36 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 11,
+   "number": "4.02",
+   "matches": [
+    "lb.run_holdout.run_fold1.index_1nn_prev",
+    "lb.run_holdout.mean3.index_1nn_prev",
+    "split.run_holdout.no_eeg_prev"
+   ],
+   "context": "Run holdout & 4.37 $\\pm$ 0.49 & 3.73 $\\pm$ 0.60 & 0.64 & 4.02 & 3.36 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 11,
+   "number": "3.36",
+   "matches": [
+    "lb.run_holdout.mean3.majority",
+    "lb.run_holdout.mean3.run_majority",
+    "split.run_holdout.no_eeg_majority",
+    "split.run_holdout.no_eeg_run_majority"
+   ],
+   "context": "Run holdout & 4.37 $\\pm$ 0.49 & 3.73 $\\pm$ 0.60 & 0.64 & 4.02 & 3.36 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 12,
+   "number": "2.55",
+   "matches": [
+    "split.session_holdout.real.val_selected.mean"
+   ],
+   "context": "Session holdout & 2.55 $\\pm$ 0.13 & 2.75 $\\pm$ 0.43 & $-$0.20 & 3.28 & 2.58 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 12,
+   "number": "0.13",
+   "matches": [
+    "split.session_holdout.real.val_selected.sd"
+   ],
+   "context": "Session holdout & 2.55 $\\pm$ 0.13 & 2.75 $\\pm$ 0.43 & $-$0.20 & 3.28 & 2.58 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 12,
+   "number": "2.75",
+   "matches": [
+    "lb.session_holdout.ses5.prior_sample",
+    "split.session_holdout.perm.val_selected.mean"
+   ],
+   "context": "Session holdout & 2.55 $\\pm$ 0.13 & 2.75 $\\pm$ 0.43 & $-$0.20 & 3.28 & 2.58 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 12,
+   "number": "0.43",
+   "matches": [
+    "lb.session_holdout.ses1.ci1",
+    "split.session_holdout.perm.val_selected.sd"
+   ],
+   "context": "Session holdout & 2.55 $\\pm$ 0.13 & 2.75 $\\pm$ 0.43 & $-$0.20 & 3.28 & 2.58 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 12,
+   "number": "-0.20",
+   "matches": [
+    "lb.session_holdout.ses1.index_1nn_prev",
+    "lb.session_holdout.ses1.index_1nn_next",
+    "lb.session_holdout.ses1.index_knn_3",
+    "lb.session_holdout.ses1.index_knn_5"
+   ],
+   "context": "Session holdout & 2.55 $\\pm$ 0.13 & 2.75 $\\pm$ 0.43 & $-$0.20 & 3.28 & 2.58 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 12,
+   "number": "3.28",
+   "matches": [
+    "lb.session_holdout.mean3.index_1nn_prev",
+    "lb.session_holdout.mean.index_knn_5",
+    "split.session_holdout.no_eeg_prev"
+   ],
+   "context": "Session holdout & 2.55 $\\pm$ 0.13 & 2.75 $\\pm$ 0.43 & $-$0.20 & 3.28 & 2.58 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 12,
+   "number": "2.58",
+   "matches": [
+    "lb.session_holdout.mean3.majority",
+    "lb.session_holdout.mean3.run_majority",
+    "split.session_holdout.no_eeg_majority",
+    "split.session_holdout.no_eeg_run_majority"
+   ],
+   "context": "Session holdout & 2.55 $\\pm$ 0.13 & 2.75 $\\pm$ 0.43 & $-$0.20 & 3.28 & 2.58 \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 14,
+   "number": "8.17",
+   "matches": [
+    "repro.final.seed2",
+    "split.interleaved.real.upstream_max.mean",
+    "split.interleaved.real.upstream_max.seed0"
+   ],
+   "context": "Interleaved (released) & 8.17 $\\pm$ 0.24 & 6.06 $\\pm$ 0.18 & 2.11 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 14,
+   "number": "0.24",
+   "matches": [
+    "repro.val_selected.sd",
+    "split.interleaved.real.upstream_max.sd"
+   ],
+   "context": "Interleaved (released) & 8.17 $\\pm$ 0.24 & 6.06 $\\pm$ 0.18 & 2.11 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 14,
+   "number": "6.06",
+   "matches": [
+    "split.interleaved.perm.upstream_max.mean"
+   ],
+   "context": "Interleaved (released) & 8.17 $\\pm$ 0.24 & 6.06 $\\pm$ 0.18 & 2.11 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 14,
+   "number": "0.18",
+   "matches": [
+    "split.interleaved.perm.upstream_max.sd"
+   ],
+   "context": "Interleaved (released) & 8.17 $\\pm$ 0.24 & 6.06 $\\pm$ 0.18 & 2.11 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 14,
+   "number": "2.11",
+   "matches": [
+    "lb.run_holdout.run_fold3.ci0",
+    "repro.diff.val_selected",
+    "split.interleaved.diff.upstream_max",
+    "split.interleaved.diff.val_selected"
+   ],
+   "context": "Interleaved (released) & 8.17 $\\pm$ 0.24 & 6.06 $\\pm$ 0.18 & 2.11 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 15,
+   "number": "6.99",
+   "matches": [
+    "split.random_trial.real.upstream_max.mean",
+    "read.interleaved.real.val_selected.mean",
+    "pa.real.copy_rate.mean"
+   ],
+   "context": "Random trial & 6.99 $\\pm$ 0.88 & 5.20 $\\pm$ 0.37 & 1.79 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 15,
+   "number": "0.88",
+   "matches": [
+    "split.random_trial.real.upstream_max.sd"
+   ],
+   "context": "Random trial & 6.99 $\\pm$ 0.88 & 5.20 $\\pm$ 0.37 & 1.79 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 15,
+   "number": "5.20",
+   "matches": [
+    "split.random_trial.perm.upstream_max.mean"
+   ],
+   "context": "Random trial & 6.99 $\\pm$ 0.88 & 5.20 $\\pm$ 0.37 & 1.79 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 15,
+   "number": "0.37",
+   "matches": [
+    "split.random_trial.perm.upstream_max.sd"
+   ],
+   "context": "Random trial & 6.99 $\\pm$ 0.88 & 5.20 $\\pm$ 0.37 & 1.79 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 15,
+   "number": "1.79",
+   "matches": [
+    "split.random_trial.diff.upstream_max"
+   ],
+   "context": "Random trial & 6.99 $\\pm$ 0.88 & 5.20 $\\pm$ 0.37 & 1.79 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 16,
+   "number": "6.27",
+   "matches": [
+    "split.run_holdout.real.upstream_max.mean"
+   ],
+   "context": "Run holdout & 6.27 $\\pm$ 0.08 & 5.37 $\\pm$ 0.76 & 0.90 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 16,
+   "number": "0.08",
+   "matches": [
+    "split.run_holdout.real.upstream_max.sd"
+   ],
+   "context": "Run holdout & 6.27 $\\pm$ 0.08 & 5.37 $\\pm$ 0.76 & 0.90 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 16,
+   "number": "5.37",
+   "matches": [
+    "split.run_holdout.perm.upstream_max.mean"
+   ],
+   "context": "Run holdout & 6.27 $\\pm$ 0.08 & 5.37 $\\pm$ 0.76 & 0.90 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 16,
+   "number": "0.76",
+   "matches": [
+    "repro_null.val_selected.sd",
+    "split.run_holdout.perm.upstream_max.sd"
+   ],
+   "context": "Run holdout & 6.27 $\\pm$ 0.08 & 5.37 $\\pm$ 0.76 & 0.90 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 16,
+   "number": "0.90",
+   "matches": [
+    "split.run_holdout.diff.upstream_max"
+   ],
+   "context": "Run holdout & 6.27 $\\pm$ 0.08 & 5.37 $\\pm$ 0.76 & 0.90 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 17,
+   "number": "5.66",
+   "matches": [
+    "split.session_holdout.real.upstream_max.mean"
+   ],
+   "context": "Session holdout & 5.66 $\\pm$ 1.22 & 5.26 $\\pm$ 0.54 & 0.40 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 17,
+   "number": "1.22",
+   "matches": [
+    "split.session_holdout.real.upstream_max.sd"
+   ],
+   "context": "Session holdout & 5.66 $\\pm$ 1.22 & 5.26 $\\pm$ 0.54 & 0.40 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 17,
+   "number": "5.26",
+   "matches": [
+    "split.session_holdout.perm.upstream_max.mean"
+   ],
+   "context": "Session holdout & 5.66 $\\pm$ 1.22 & 5.26 $\\pm$ 0.54 & 0.40 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 17,
+   "number": "0.54",
+   "matches": [
+    "split.session_holdout.perm.upstream_max.sd",
+    "read.run_holdout.perm.val_selected.sd"
+   ],
+   "context": "Session holdout & 5.66 $\\pm$ 1.22 & 5.26 $\\pm$ 0.54 & 0.40 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t2_splits.tex",
+   "line": 17,
+   "number": "0.40",
+   "matches": [
+    "split.interleaved.real.final.sd",
+    "split.session_holdout.diff.upstream_max",
+    "read.run_holdout.real.val_selected.sd",
+    "pa.perm.excess.min"
+   ],
+   "context": "Session holdout & 5.66 $\\pm$ 1.22 & 5.26 $\\pm$ 0.54 & 0.40 &  &  \\\\"
+  },
+  {
+   "file": "paper/tables/t3_read.tex",
+   "line": 5,
+   "number": "6.99",
+   "matches": [
+    "split.random_trial.real.upstream_max.mean",
+    "read.interleaved.real.val_selected.mean",
+    "pa.real.copy_rate.mean"
+   ],
+   "context": "Reading, interleaved (released) & 6.99 $\\pm$ 0.53 & not run & -- & 2.11 \\\\"
+  },
+  {
+   "file": "paper/tables/t3_read.tex",
+   "line": 5,
+   "number": "0.53",
+   "matches": [
+    "split.random_trial.perm.val_selected.sd",
+    "split.session_holdout.real.final.sd",
+    "read.interleaved.real.val_selected.sd"
+   ],
+   "context": "Reading, interleaved (released) & 6.99 $\\pm$ 0.53 & not run & -- & 2.11 \\\\"
+  },
+  {
+   "file": "paper/tables/t3_read.tex",
+   "line": 5,
+   "number": "2.11",
+   "matches": [
+    "lb.run_holdout.run_fold3.ci0",
+    "repro.diff.val_selected",
+    "split.interleaved.diff.upstream_max",
+    "split.interleaved.diff.val_selected"
+   ],
+   "context": "Reading, interleaved (released) & 6.99 $\\pm$ 0.53 & not run & -- & 2.11 \\\\"
+  },
+  {
+   "file": "paper/tables/t3_read.tex",
+   "line": 6,
+   "number": "4.85",
+   "matches": [
+    "read.run_holdout.real.val_selected.mean"
+   ],
+   "context": "Reading, run holdout & 4.85 $\\pm$ 0.40 & 3.75 $\\pm$ 0.54 & 1.10 & 0.64 \\\\"
+  },
+  {
+   "file": "paper/tables/t3_read.tex",
+   "line": 6,
+   "number": "0.40",
+   "matches": [
+    "split.interleaved.real.final.sd",
+    "split.session_holdout.diff.upstream_max",
+    "read.run_holdout.real.val_selected.sd",
+    "pa.perm.excess.min"
+   ],
+   "context": "Reading, run holdout & 4.85 $\\pm$ 0.40 & 3.75 $\\pm$ 0.54 & 1.10 & 0.64 \\\\"
+  },
+  {
+   "file": "paper/tables/t3_read.tex",
+   "line": 6,
+   "number": "3.75",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_knn_3",
+    "lb.run_holdout.run_fold4.index_1nn_next",
+    "lb.run_holdout.min.index_knn_3",
+    "read.run_holdout.perm.val_selected.mean"
+   ],
+   "context": "Reading, run holdout & 4.85 $\\pm$ 0.40 & 3.75 $\\pm$ 0.54 & 1.10 & 0.64 \\\\"
+  },
+  {
+   "file": "paper/tables/t3_read.tex",
+   "line": 6,
+   "number": "0.54",
+   "matches": [
+    "split.session_holdout.perm.upstream_max.sd",
+    "read.run_holdout.perm.val_selected.sd"
+   ],
+   "context": "Reading, run holdout & 4.85 $\\pm$ 0.40 & 3.75 $\\pm$ 0.54 & 1.10 & 0.64 \\\\"
+  },
+  {
+   "file": "paper/tables/t3_read.tex",
+   "line": 6,
+   "number": "1.10",
+   "matches": [
+    "read.run_holdout.diff",
+    "paired.read.run_holdout.mean"
+   ],
+   "context": "Reading, run holdout & 4.85 $\\pm$ 0.40 & 3.75 $\\pm$ 0.54 & 1.10 & 0.64 \\\\"
+  },
+  {
+   "file": "paper/tables/t3_read.tex",
+   "line": 6,
+   "number": "0.64",
+   "matches": [
+    "split.run_holdout.real.final.sd",
+    "split.run_holdout.diff.val_selected",
+    "paired.imagine.run_holdout.mean"
+   ],
+   "context": "Reading, run holdout & 4.85 $\\pm$ 0.40 & 3.75 $\\pm$ 0.54 & 1.10 & 0.64 \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 4,
+   "number": "2.56",
+   "matches": [
+    "chance"
+   ],
+   "context": "\\caption{\\textbf{Classifiers that never see EEG}, scored on the evaluation trials of each split (accuracy, \\%). Each uses only training labe"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 6,
+   "number": "4",
+   "matches": [
+    "lb.interleaved.interleaved.position_majority",
+    "lb.interleaved.mean.position_majority",
+    "lb.interleaved.min.position_majority",
+    "lb.interleaved.max.position_majority"
+   ],
+   "context": "\\setlength{\\tabcolsep}{4pt}"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 11,
+   "number": "4.72",
+   "matches": [
+    "lb.interleaved.interleaved.majority",
+    "lb.interleaved.mean.majority",
+    "lb.interleaved.min.majority",
+    "lb.interleaved.max.majority"
+   ],
+   "context": "Majority class & 4.72 & 4.56 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 11,
+   "number": "4.56",
+   "matches": [
+    "lb.random_trial.random_trial.majority",
+    "lb.random_trial.mean.majority",
+    "lb.random_trial.min.majority",
+    "lb.random_trial.max.majority"
+   ],
+   "context": "Majority class & 4.72 & 4.56 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 11,
+   "number": "3.46",
+   "matches": [
+    "lb.run_holdout.mean.majority",
+    "lb.run_holdout.mean.run_majority",
+    "lb.session_holdout.ses4.index_knn_11",
+    "lb.session_holdout.max.index_knn_11"
+   ],
+   "context": "Majority class & 4.72 & 4.56 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 11,
+   "number": "2.64",
+   "matches": [
+    "lb.run_holdout.run_fold3.majority",
+    "lb.run_holdout.run_fold3.run_majority",
+    "lb.run_holdout.min.majority",
+    "lb.run_holdout.min.run_majority"
+   ],
+   "context": "Majority class & 4.72 & 4.56 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 11,
+   "number": "4.60",
+   "matches": [
+    "lb.run_holdout.run_fold4.majority",
+    "lb.run_holdout.run_fold4.run_majority",
+    "lb.run_holdout.max.majority",
+    "lb.run_holdout.max.run_majority"
+   ],
+   "context": "Majority class & 4.72 & 4.56 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 11,
+   "number": "1.91",
+   "matches": [
+    "lb.session_holdout.mean.majority",
+    "lb.session_holdout.mean.run_majority"
+   ],
+   "context": "Majority class & 4.72 & 4.56 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 11,
+   "number": "0.59",
+   "matches": [
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.min.majority",
+    "lb.session_holdout.min.run_majority"
+   ],
+   "context": "Majority class & 4.72 & 4.56 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 11,
+   "number": "3.65",
+   "matches": [
+    "lb.session_holdout.ses3.majority",
+    "lb.session_holdout.ses3.run_majority",
+    "lb.session_holdout.max.majority",
+    "lb.session_holdout.max.run_majority"
+   ],
+   "context": "Majority class & 4.72 & 4.56 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 12,
+   "number": "18.82",
+   "matches": [
+    "lb.interleaved.interleaved.index_1nn_prev",
+    "lb.interleaved.mean.index_1nn_prev",
+    "lb.interleaved.min.index_1nn_prev",
+    "lb.interleaved.max.index_1nn_prev"
+   ],
+   "context": "Previous training trial & 18.82 & 18.57 & 4.28 [2.42, 5.67] & 3.40 [0.20, 6.84] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 12,
+   "number": "18.57",
+   "matches": [
+    "lb.random_trial.random_trial.index_1nn_prev",
+    "lb.random_trial.random_trial.index_1nn_next",
+    "lb.random_trial.mean.index_1nn_prev",
+    "lb.random_trial.min.index_1nn_prev"
+   ],
+   "context": "Previous training trial & 18.82 & 18.57 & 4.28 [2.42, 5.67] & 3.40 [0.20, 6.84] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 12,
+   "number": "4.28",
+   "matches": [
+    "lb.run_holdout.mean.index_1nn_prev"
+   ],
+   "context": "Previous training trial & 18.82 & 18.57 & 4.28 [2.42, 5.67] & 3.40 [0.20, 6.84] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 12,
+   "number": "2.42",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_1nn_prev",
+    "lb.run_holdout.min.index_1nn_prev",
+    "paired.imagine.run_holdout.min"
+   ],
+   "context": "Previous training trial & 18.82 & 18.57 & 4.28 [2.42, 5.67] & 3.40 [0.20, 6.84] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 12,
+   "number": "5.67",
+   "matches": [
+    "lb.run_holdout.run_fold4.index_1nn_prev",
+    "lb.run_holdout.run_fold4.index_knn_3",
+    "lb.run_holdout.max.index_1nn_prev",
+    "lb.session_holdout.ses2.index_knn_3"
+   ],
+   "context": "Previous training trial & 18.82 & 18.57 & 4.28 [2.42, 5.67] & 3.40 [0.20, 6.84] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 12,
+   "number": "3.40",
+   "matches": [
+    "lb.session_holdout.mean.index_1nn_prev",
+    "loss_end_hi"
+   ],
+   "context": "Previous training trial & 18.82 & 18.57 & 4.28 [2.42, 5.67] & 3.40 [0.20, 6.84] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 12,
+   "number": "0.20",
+   "matches": [
+    "lb.session_holdout.ses1.index_1nn_prev",
+    "lb.session_holdout.ses1.index_1nn_next",
+    "lb.session_holdout.ses1.index_knn_3",
+    "lb.session_holdout.ses1.index_knn_5"
+   ],
+   "context": "Previous training trial & 18.82 & 18.57 & 4.28 [2.42, 5.67] & 3.40 [0.20, 6.84] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 12,
+   "number": "6.84",
+   "matches": [
+    "lb.session_holdout.ses2.index_1nn_prev",
+    "lb.session_holdout.max.index_1nn_prev",
+    "lag10.within"
+   ],
+   "context": "Previous training trial & 18.82 & 18.57 & 4.28 [2.42, 5.67] & 3.40 [0.20, 6.84] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 13,
+   "number": "20.42",
+   "matches": [
+    "lb.interleaved.interleaved.index_1nn_next",
+    "lb.interleaved.mean.index_1nn_next",
+    "lb.interleaved.min.index_1nn_next",
+    "lb.interleaved.max.index_1nn_next"
+   ],
+   "context": "Next training trial & 20.42 & 18.57 & 5.47 [3.62, 7.69] & 3.67 [0.20, 7.62] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 13,
+   "number": "18.57",
+   "matches": [
+    "lb.random_trial.random_trial.index_1nn_prev",
+    "lb.random_trial.random_trial.index_1nn_next",
+    "lb.random_trial.mean.index_1nn_prev",
+    "lb.random_trial.min.index_1nn_prev"
+   ],
+   "context": "Next training trial & 20.42 & 18.57 & 5.47 [3.62, 7.69] & 3.67 [0.20, 7.62] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 13,
+   "number": "5.47",
+   "matches": [
+    "lb.run_holdout.mean.index_1nn_next",
+    "split.interleaved.perm.val_selected.mean"
+   ],
+   "context": "Next training trial & 20.42 & 18.57 & 5.47 [3.62, 7.69] & 3.67 [0.20, 7.62] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 13,
+   "number": "3.62",
+   "matches": [
+    "lb.run_holdout.run_fold1.index_1nn_next",
+    "lb.run_holdout.run_fold1.position_majority",
+    "lb.run_holdout.min.index_1nn_next"
+   ],
+   "context": "Next training trial & 20.42 & 18.57 & 5.47 [3.62, 7.69] & 3.67 [0.20, 7.62] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 13,
+   "number": "7.69",
+   "matches": [
+    "lb.run_holdout.run_fold3.index_1nn_next",
+    "lb.run_holdout.max.index_1nn_next"
+   ],
+   "context": "Next training trial & 20.42 & 18.57 & 5.47 [3.62, 7.69] & 3.67 [0.20, 7.62] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 13,
+   "number": "3.67",
+   "matches": [
+    "lb.session_holdout.mean.index_1nn_next"
+   ],
+   "context": "Next training trial & 20.42 & 18.57 & 5.47 [3.62, 7.69] & 3.67 [0.20, 7.62] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 13,
+   "number": "0.20",
+   "matches": [
+    "lb.session_holdout.ses1.index_1nn_prev",
+    "lb.session_holdout.ses1.index_1nn_next",
+    "lb.session_holdout.ses1.index_knn_3",
+    "lb.session_holdout.ses1.index_knn_5"
+   ],
+   "context": "Next training trial & 20.42 & 18.57 & 5.47 [3.62, 7.69] & 3.67 [0.20, 7.62] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 13,
+   "number": "7.62",
+   "matches": [
+    "lb.session_holdout.ses4.index_1nn_next",
+    "lb.session_holdout.max.index_1nn_next"
+   ],
+   "context": "Next training trial & 20.42 & 18.57 & 5.47 [3.62, 7.69] & 3.67 [0.20, 7.62] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 14,
+   "number": "5",
+   "matches": [
+    "lb.interleaved.interleaved.majority",
+    "lb.interleaved.mean.majority",
+    "lb.interleaved.min.majority",
+    "lb.interleaved.max.majority"
+   ],
+   "context": "5 nearest training trials & 20.90 & 21.70 & 5.97 [3.05, 8.58] & 3.28 [0.20, 5.90] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 14,
+   "number": "20.90",
+   "matches": [
+    "lb.interleaved.interleaved.index_knn_5",
+    "lb.interleaved.mean.index_knn_5",
+    "lb.interleaved.min.index_knn_5",
+    "lb.interleaved.max.index_knn_5"
+   ],
+   "context": "5 nearest training trials & 20.90 & 21.70 & 5.97 [3.05, 8.58] & 3.28 [0.20, 5.90] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 14,
+   "number": "21.70",
+   "matches": [
+    "lb.random_trial.random_trial.index_knn_5",
+    "lb.random_trial.mean.index_knn_5",
+    "lb.random_trial.min.index_knn_5",
+    "lb.random_trial.max.index_knn_5"
+   ],
+   "context": "5 nearest training trials & 20.90 & 21.70 & 5.97 [3.05, 8.58] & 3.28 [0.20, 5.90] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 14,
+   "number": "5.97",
+   "matches": [
+    "lb.run_holdout.mean.index_knn_5"
+   ],
+   "context": "5 nearest training trials & 20.90 & 21.70 & 5.97 [3.05, 8.58] & 3.28 [0.20, 5.90] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 14,
+   "number": "3.05",
+   "matches": [
+    "lb.run_holdout.run_fold0.index_knn_5",
+    "lb.run_holdout.min.index_knn_5"
+   ],
+   "context": "5 nearest training trials & 20.90 & 21.70 & 5.97 [3.05, 8.58] & 3.28 [0.20, 5.90] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 14,
+   "number": "8.58",
+   "matches": [
+    "lb.run_holdout.run_fold2.index_knn_5",
+    "lb.run_holdout.max.index_knn_5"
+   ],
+   "context": "5 nearest training trials & 20.90 & 21.70 & 5.97 [3.05, 8.58] & 3.28 [0.20, 5.90] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 14,
+   "number": "3.28",
+   "matches": [
+    "lb.session_holdout.mean3.index_1nn_prev",
+    "lb.session_holdout.mean.index_knn_5",
+    "split.session_holdout.no_eeg_prev"
+   ],
+   "context": "5 nearest training trials & 20.90 & 21.70 & 5.97 [3.05, 8.58] & 3.28 [0.20, 5.90] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 14,
+   "number": "0.20",
+   "matches": [
+    "lb.session_holdout.ses1.index_1nn_prev",
+    "lb.session_holdout.ses1.index_1nn_next",
+    "lb.session_holdout.ses1.index_knn_3",
+    "lb.session_holdout.ses1.index_knn_5"
+   ],
+   "context": "5 nearest training trials & 20.90 & 21.70 & 5.97 [3.05, 8.58] & 3.28 [0.20, 5.90] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 14,
+   "number": "5.90",
+   "matches": [
+    "lb.session_holdout.ses5.index_1nn_prev",
+    "lb.session_holdout.ses5.index_1nn_next",
+    "lb.session_holdout.ses5.index_knn_3",
+    "lb.session_holdout.ses5.index_knn_5"
+   ],
+   "context": "5 nearest training trials & 20.90 & 21.70 & 5.97 [3.05, 8.58] & 3.28 [0.20, 5.90] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 15,
+   "number": "14.41",
+   "matches": [
+    "lb.interleaved.interleaved.run_majority",
+    "lb.interleaved.mean.run_majority",
+    "lb.interleaved.min.run_majority",
+    "lb.interleaved.max.run_majority"
+   ],
+   "context": "Majority within run & 14.41 & 14.01 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 15,
+   "number": "14.01",
+   "matches": [
+    "lb.random_trial.random_trial.run_majority",
+    "lb.random_trial.mean.run_majority",
+    "lb.random_trial.min.run_majority",
+    "lb.random_trial.max.run_majority"
+   ],
+   "context": "Majority within run & 14.41 & 14.01 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 15,
+   "number": "3.46",
+   "matches": [
+    "lb.run_holdout.mean.majority",
+    "lb.run_holdout.mean.run_majority",
+    "lb.session_holdout.ses4.index_knn_11",
+    "lb.session_holdout.max.index_knn_11"
+   ],
+   "context": "Majority within run & 14.41 & 14.01 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 15,
+   "number": "2.64",
+   "matches": [
+    "lb.run_holdout.run_fold3.majority",
+    "lb.run_holdout.run_fold3.run_majority",
+    "lb.run_holdout.min.majority",
+    "lb.run_holdout.min.run_majority"
+   ],
+   "context": "Majority within run & 14.41 & 14.01 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 15,
+   "number": "4.60",
+   "matches": [
+    "lb.run_holdout.run_fold4.majority",
+    "lb.run_holdout.run_fold4.run_majority",
+    "lb.run_holdout.max.majority",
+    "lb.run_holdout.max.run_majority"
+   ],
+   "context": "Majority within run & 14.41 & 14.01 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 15,
+   "number": "1.91",
+   "matches": [
+    "lb.session_holdout.mean.majority",
+    "lb.session_holdout.mean.run_majority"
+   ],
+   "context": "Majority within run & 14.41 & 14.01 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 15,
+   "number": "0.59",
+   "matches": [
+    "lb.session_holdout.ses1.majority",
+    "lb.session_holdout.ses1.run_majority",
+    "lb.session_holdout.min.majority",
+    "lb.session_holdout.min.run_majority"
+   ],
+   "context": "Majority within run & 14.41 & 14.01 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 15,
+   "number": "3.65",
+   "matches": [
+    "lb.session_holdout.ses3.majority",
+    "lb.session_holdout.ses3.run_majority",
+    "lb.session_holdout.max.majority",
+    "lb.session_holdout.max.run_majority"
+   ],
+   "context": "Majority within run & 14.41 & 14.01 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 16,
+   "number": "3.68",
+   "matches": [
+    "lb.interleaved.interleaved.position_majority",
+    "lb.interleaved.mean.position_majority",
+    "lb.interleaved.min.position_majority",
+    "lb.interleaved.max.position_majority"
+   ],
+   "context": "Majority at run position & 3.68 & 3.52 & 3.48 [3.21, 3.77] & 3.09 [2.57, 3.79] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 16,
+   "number": "3.52",
+   "matches": [
+    "lb.random_trial.random_trial.position_majority",
+    "lb.random_trial.mean.position_majority",
+    "lb.random_trial.min.position_majority",
+    "lb.random_trial.max.position_majority"
+   ],
+   "context": "Majority at run position & 3.68 & 3.52 & 3.48 [3.21, 3.77] & 3.09 [2.57, 3.79] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 16,
+   "number": "3.48",
+   "matches": [
+    "lb.run_holdout.mean.position_majority"
+   ],
+   "context": "Majority at run position & 3.68 & 3.52 & 3.48 [3.21, 3.77] & 3.09 [2.57, 3.79] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 16,
+   "number": "3.21",
+   "matches": [
+    "lb.run_holdout.run_fold0.position_majority",
+    "lb.run_holdout.min.position_majority"
+   ],
+   "context": "Majority at run position & 3.68 & 3.52 & 3.48 [3.21, 3.77] & 3.09 [2.57, 3.79] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 16,
+   "number": "3.77",
+   "matches": [
+    "lb.run_holdout.run_fold3.position_majority",
+    "lb.run_holdout.max.position_majority",
+    "drift.run_holdout.null_max"
+   ],
+   "context": "Majority at run position & 3.68 & 3.52 & 3.48 [3.21, 3.77] & 3.09 [2.57, 3.79] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 16,
+   "number": "3.09",
+   "matches": [
+    "lb.session_holdout.mean.position_majority"
+   ],
+   "context": "Majority at run position & 3.68 & 3.52 & 3.48 [3.21, 3.77] & 3.09 [2.57, 3.79] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 16,
+   "number": "2.57",
+   "matches": [
+    "lb.session_holdout.ses1.position_majority",
+    "lb.session_holdout.min.position_majority",
+    "split.session_holdout.real.final.seed2"
+   ],
+   "context": "Majority at run position & 3.68 & 3.52 & 3.48 [3.21, 3.77] & 3.09 [2.57, 3.79] \\\\"
+  },
+  {
+   "file": "paper/tables/t_noeeg.tex",
+   "line": 16,
+   "number": "3.79",
+   "matches": [
+    "lb.session_holdout.ses3.position_majority",
+    "lb.session_holdout.max.position_majority",
+    "split.run_holdout.perm.val_selected.seed1"
+   ],
+   "context": "Majority at run position & 3.68 & 3.52 & 3.48 [3.21, 3.77] & 3.09 [2.57, 3.79] \\\\"
+  }
+ ]
+}

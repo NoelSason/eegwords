@@ -1,0 +1,48 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,linkcolor=blue!60!black,citecolor=blue!60!black,urlcolor=blue!60!black]{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage[section]{placeins}  % keep floats inside their own section
+\setlength{\emergencystretch}{2em}  % avoid overfull lines from long words and code names
+
+% Placeholder for unfinished results. scripts/check_paper.sh fails the build if any remain.
+\newcommand{\pending}[1]{\textcolor{red}{\textbf{[PENDING: #1]}}}
+
+\title{Trial Order, Recording Time, and Checkpoint Selection\\in a 39-Way Imagined-Speech EEG Benchmark}
+\author{Noel Sason\\
+  University of California, Berkeley\\
+  \texttt{noel\_sason@berkeley.edu}}
+\date{October 2026}
+
+\begin{document}
+\maketitle
+
+\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/related}
+\input{sections/setting}
+\input{sections/audit}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/limitations}
+\input{sections/conclusion}
+\input{sections/ai_disclosure}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\appendix
+\input{appendix}
+\end{document}

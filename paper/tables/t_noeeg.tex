@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\small
+\caption{\textbf{Classifiers that never see EEG}, scored on the evaluation trials of each split (accuracy, \%). Each uses only training labels and the trial's position in the recording. Interleaved is the released split. Grouped splits: mean over the five folds, with the range in brackets. Uniform chance is 2.56\%. Source: \texttt{results/label\_baselines.json}.}
+\label{tab:noeeg}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lcccc}
+\toprule
+Classifier & Interleaved & Random trial & Run holdout & Session holdout \\
+\midrule
+Majority class & 4.72 & 4.56 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\
+Previous training trial & 18.82 & 18.57 & 4.28 [2.42, 5.67] & 3.40 [0.20, 6.84] \\
+Next training trial & 20.42 & 18.57 & 5.47 [3.62, 7.69] & 3.67 [0.20, 7.62] \\
+5 nearest training trials & 20.90 & 21.70 & 5.97 [3.05, 8.58] & 3.28 [0.20, 5.90] \\
+Majority within run & 14.41 & 14.01 & 3.46 [2.64, 4.60] & 1.91 [0.59, 3.65] \\
+Majority at run position & 3.68 & 3.52 & 3.48 [3.21, 3.77] & 3.09 [2.57, 3.79] \\
+\bottomrule
+\end{tabular}
+\end{table}
