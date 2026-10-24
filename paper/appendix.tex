@@ -90,7 +90,9 @@ rest. Session holdout therefore combines a leak-free split with label shift.
 \section{Reproducing every number}
 \label{app:repro}
 
-All code, tests and result files accompany this paper. \texttt{scripts/fetch.sh} downloads
+All code, tests and result files are at \url{https://github.com/NoelSason/eegwords}. Commit
+\texttt{6e3e53d} holds the code and result files behind the numbers in this version of the paper.
+\texttt{scripts/fetch.sh} downloads
 the public data; \texttt{scripts/reproduce\_main\_results.sh} rebuilds the cache, runs the unit
 tests, the no-EEG classifiers, the drift probe, every EEG configuration, the released script, and
 regenerates all tables and figures from \texttt{results/}. \texttt{paper/README.md} maps each table
